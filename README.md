@@ -1,0 +1,522 @@
+# DNS-related RFC documents
+
+Last updated: October 4, 2025
+
+| RFC No. | Title | Date | Status | WG/Stream | Obsoleted by | Updated by |
+|---------|-------|------|--------|-----------|--------------|------------|
+|799|[Internet name domains](rfc_documents/rfc799.txt)|1981/9|unknown|[legacy]|-|-|
+|819|[The Domain Naming Convention for Internet User Applications](rfc_documents/rfc819.txt)|1982/8|unknown|[legacy]|-|-|
+|881|[Domain names plan and schedule](rfc_documents/rfc881.txt)|1983/11|unknown|[legacy]|-|[897](https://www.rfc-editor.org/info/rfc897)|
+|882|[Domain names: Concepts and facilities](rfc_documents/rfc882.txt)|1983/11|unknown|[legacy]|[1034](https://www.rfc-editor.org/info/rfc1034),[1035](https://www.rfc-editor.org/info/rfc1035)|[973](https://www.rfc-editor.org/info/rfc973)|
+|883|[Domain names: Implementation specifications](rfc_documents/rfc883.txt)|1983/11|unknown|[legacy]|[1034](https://www.rfc-editor.org/info/rfc1034),[1035](https://www.rfc-editor.org/info/rfc1035)|[973](https://www.rfc-editor.org/info/rfc973)|
+|897|[Domain name system implementation schedule](rfc_documents/rfc897.txt)|1984/2|unknown|[legacy]|-|[921](https://www.rfc-editor.org/info/rfc921)|
+|920|[Domain requirements](rfc_documents/rfc920.txt)|1984/1|unknown|[legacy]|-|-|
+|921|[Domain name system implementation schedule - revised](rfc_documents/rfc921.txt)|1984/10|unknown|[legacy]|-|-|
+|952|[DoD Internet host table specification](rfc_documents/rfc952.txt)|1985/10|unknown|[legacy]|-|[1123](https://www.rfc-editor.org/info/rfc1123)|
+|973|[Domain system changes and observations](rfc_documents/rfc973.txt)|1986/1|unknown|[legacy]|[1034](https://www.rfc-editor.org/info/rfc1034),[1035](https://www.rfc-editor.org/info/rfc1035)|-|
+|974|[Mail routing and the domain system](rfc_documents/rfc974.txt)|1986/1|historic|[legacy]|[2821](https://www.rfc-editor.org/info/rfc2821)|-|
+|1031|[MILNET name domain transition](rfc_documents/rfc1031.txt)|1987/11|unknown|[legacy]|-|-|
+|1032|[Domain administrators guide](rfc_documents/rfc1032.txt)|1987/11|unknown|[legacy]|-|-|
+|1033|[Domain Administrators Operations Guide](rfc_documents/rfc1033.txt)|1987/11|unknown|[legacy]|-|-|
+|1034|[Domain names - concepts and facilites](rfc_documents/rfc1034.txt)|1987/11|internet standard|[legacy]|-|[1101](https://www.rfc-editor.org/info/rfc1101),[1183](https://www.rfc-editor.org/info/rfc1183),[1348](https://www.rfc-editor.org/info/rfc1348),[1876](https://www.rfc-editor.org/info/rfc1876),[1982](https://www.rfc-editor.org/info/rfc1982),[2065](https://www.rfc-editor.org/info/rfc2065),[2181](https://www.rfc-editor.org/info/rfc2181),[2308](https://www.rfc-editor.org/info/rfc2308),[2535](https://www.rfc-editor.org/info/rfc2535),[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035),[4343](https://www.rfc-editor.org/info/rfc4343),[4592](https://www.rfc-editor.org/info/rfc4592),[5936](https://www.rfc-editor.org/info/rfc5936),[8020](https://www.rfc-editor.org/info/rfc8020),[8482](https://www.rfc-editor.org/info/rfc8482),[8767](https://www.rfc-editor.org/info/rfc8767),[9471](https://www.rfc-editor.org/info/rfc9471)|
+|1035|[Domain names - implementation and specification](rfc_documents/rfc1035.txt)|1987/11|internet standard|[legacy]|-|[1101](https://www.rfc-editor.org/info/rfc1101),[1183](https://www.rfc-editor.org/info/rfc1183),[1348](https://www.rfc-editor.org/info/rfc1348),[1876](https://www.rfc-editor.org/info/rfc1876),[1982](https://www.rfc-editor.org/info/rfc1982),[1995](https://www.rfc-editor.org/info/rfc1995),[1996](https://www.rfc-editor.org/info/rfc1996),[2065](https://www.rfc-editor.org/info/rfc2065),[2136](https://www.rfc-editor.org/info/rfc2136),[2137](https://www.rfc-editor.org/info/rfc2137),[2181](https://www.rfc-editor.org/info/rfc2181),[2308](https://www.rfc-editor.org/info/rfc2308),[2535](https://www.rfc-editor.org/info/rfc2535),[2673](https://www.rfc-editor.org/info/rfc2673),[2845](https://www.rfc-editor.org/info/rfc2845),[3425](https://www.rfc-editor.org/info/rfc3425),[3658](https://www.rfc-editor.org/info/rfc3658),[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035),[4343](https://www.rfc-editor.org/info/rfc4343),[5936](https://www.rfc-editor.org/info/rfc5936),[5966](https://www.rfc-editor.org/info/rfc5966),[6604](https://www.rfc-editor.org/info/rfc6604),[7766](https://www.rfc-editor.org/info/rfc7766),[8482](https://www.rfc-editor.org/info/rfc8482),[8490](https://www.rfc-editor.org/info/rfc8490),[8767](https://www.rfc-editor.org/info/rfc8767),[9619](https://www.rfc-editor.org/info/rfc9619)|
+|1101|[DNS encoding of network names and other types](rfc_documents/rfc1101.txt)|1989/4|unknown|[legacy]|-|-|
+|1123|[Requirements for Internet Hosts -- Application and Support](rfc_documents/rfc1123.txt)|1989/10|internet standard|[legacy]|-|[1349](https://www.rfc-editor.org/info/rfc1349),[2181](https://www.rfc-editor.org/info/rfc2181),[5321](https://www.rfc-editor.org/info/rfc5321),[5966](https://www.rfc-editor.org/info/rfc5966),[7766](https://www.rfc-editor.org/info/rfc7766),[9210](https://www.rfc-editor.org/info/rfc9210)|
+|1178|[Choosing a name for your computer](rfc_documents/rfc1178.txt)|1990/8|informational|[legacy]|-|-|
+|1183|[New DNS RR Definitions](rfc_documents/rfc1183.txt)|1990/1|experimental|[legacy]|-|[5395](https://www.rfc-editor.org/info/rfc5395),[5864](https://www.rfc-editor.org/info/rfc5864),[6195](https://www.rfc-editor.org/info/rfc6195),[6895](https://www.rfc-editor.org/info/rfc6895)|
+|1279|[X.500 and Domains](rfc_documents/rfc1279.txt)|1991/11|experimental|osids|-|-|
+|1348|[DNS NSAP RRs](rfc_documents/rfc1348.txt)|1992/7|experimental|[legacy]|[1637](https://www.rfc-editor.org/info/rfc1637)|-|
+|1383|[An Experiment in DNS Based IP Routing](rfc_documents/rfc1383.txt)|1992/12|experimental|[legacy]|-|-|
+|1386|[The US Domain](rfc_documents/rfc1386.txt)|1992/12|informational|[legacy]|[1480](https://www.rfc-editor.org/info/rfc1480)|-|
+|1394|[Relationship of Telex Answerback Codes to Internet Domains](rfc_documents/rfc1394.txt)|1993/1|informational|[legacy]|-|-|
+|1401|[Correspondence between the IAB and DISA on the use of DNS](rfc_documents/rfc1401.txt)|1993/1|informational|[legacy]|-|-|
+|1464|[Using the Domain Name System To Store Arbitrary String Attributes](rfc_documents/rfc1464.txt)|1993/5|experimental|[legacy]|-|-|
+|1480|[The US Domain](rfc_documents/rfc1480.txt)|1993/6|informational|[legacy]|-|-|
+|1528|[Principles of Operation for the TPC.INT Subdomain: Remote Printing -- Technical Procedures](rfc_documents/rfc1528.txt)|1993/10|historic|[legacy]|[9121](https://www.rfc-editor.org/info/rfc9121)|-|
+|1535|[A Security Problem and Proposed Correction with Widely Deployed DNS Software](rfc_documents/rfc1535.txt)|1993/1|informational|[legacy]|-|-|
+|1536|[Common DNS Implementation Errors and Suggested Fixes](rfc_documents/rfc1536.txt)|1993/1|informational|dns|-|[9210](https://www.rfc-editor.org/info/rfc9210)|
+|1537|[Common DNS Data File Configuration Errors](rfc_documents/rfc1537.txt)|1993/1|informational|dns|[1912](https://www.rfc-editor.org/info/rfc1912)|-|
+|1591|[Domain Name System Structure and Delegation](rfc_documents/rfc1591.txt)|1994/3|informational|[legacy]|-|-|
+|1611|[DNS Server MIB Extensions](rfc_documents/rfc1611.txt)|1994/5|historic|dns|-|-|
+|1612|[DNS Resolver MIB Extensions](rfc_documents/rfc1612.txt)|1994/5|historic|dns|-|-|
+|1637|[DNS NSAP Resource Records](rfc_documents/rfc1637.txt)|1994/6|experimental|[legacy]|[1706](https://www.rfc-editor.org/info/rfc1706)|-|
+|1664|[Using the Internet DNS to Distribute RFC1327 Mail Address Mapping Tables](rfc_documents/rfc1664.txt)|1994/8|experimental|x400ops|[2163](https://www.rfc-editor.org/info/rfc2163)|-|
+|1706|[DNS NSAP Resource Records](rfc_documents/rfc1706.txt)|1994/10|historic|[legacy]|-|[9121](https://www.rfc-editor.org/info/rfc9121)|
+|1712|[DNS Encoding of Geographical Location](rfc_documents/rfc1712.txt)|1994/11|experimental|[legacy]|-|-|
+|1713|[Tools for DNS debugging](rfc_documents/rfc1713.txt)|1994/11|informational|[legacy]|-|-|
+|1788|[ICMP Domain Name Messages](rfc_documents/rfc1788.txt)|1995/4|historic|[legacy]|[6918](https://www.rfc-editor.org/info/rfc6918)|-|
+|1794|[DNS Support for Load Balancing](rfc_documents/rfc1794.txt)|1995/4|informational|dns|-|-|
+|1811|[U.S. Government Internet Domain Names](rfc_documents/rfc1811.txt)|1995/6|informational|[legacy]|[1816](https://www.rfc-editor.org/info/rfc1816)|-|
+|1816|[U.S. Government Internet Domain Names](rfc_documents/rfc1816.txt)|1995/8|informational|[legacy]|[2146](https://www.rfc-editor.org/info/rfc2146)|-|
+|1876|[A Means for Expressing Location Information in the Domain Name System](rfc_documents/rfc1876.txt)|1996/1|experimental|[legacy]|-|-|
+|1877|[PPP Internet Protocol Control Protocol Extensions for Name Server Addresses](rfc_documents/rfc1877.txt)|1995/12|informational|[legacy]|-|-|
+|1886|[DNS Extensions to support IP version 6](rfc_documents/rfc1886.txt)|1995/12|proposed standard|ipngwg|[3596](https://www.rfc-editor.org/info/rfc3596)|[2874](https://www.rfc-editor.org/info/rfc2874),[3152](https://www.rfc-editor.org/info/rfc3152)|
+|1912|[Common DNS Operational and Configuration Errors](rfc_documents/rfc1912.txt)|1996/2|informational|[legacy]|-|-|
+|1956|[Registration in the MIL Domain](rfc_documents/rfc1956.txt)|1996/6|informational|[legacy]|-|-|
+|1982|[Serial Number Arithmetic](rfc_documents/rfc1982.txt)|1996/8|proposed standard|dnsind|-|-|
+|1995|[Incremental Zone Transfer in DNS](rfc_documents/rfc1995.txt)|1996/8|proposed standard|dnsind|-|[9103](https://www.rfc-editor.org/info/rfc9103)|
+|1996|[A Mechanism for Prompt Notification of Zone Changes (DNS NOTIFY)](rfc_documents/rfc1996.txt)|1996/8|proposed standard|dnsind|-|-|
+|2010|[Operational Criteria for Root Name Servers](rfc_documents/rfc2010.txt)|1996/10|informational|[legacy]|[2870](https://www.rfc-editor.org/info/rfc2870)|-|
+|2052|[A DNS RR for specifying the location of services (DNS SRV)](rfc_documents/rfc2052.txt)|1996/10|experimental|[legacy]|[2782](https://www.rfc-editor.org/info/rfc2782)|-|
+|2053|[The AM (Armenia) Domain](rfc_documents/rfc2053.txt)|1996/10|informational|[legacy]|-|-|
+|2065|[Domain Name System Security Extensions](rfc_documents/rfc2065.txt)|1997/1|proposed standard|dnssec|[2535](https://www.rfc-editor.org/info/rfc2535)|-|
+|2100|[The Naming of Hosts](rfc_documents/rfc2100.txt)|1997/4|informational|independent|-|-|
+|2136|[Dynamic Updates in the Domain Name System (DNS UPDATE)](rfc_documents/rfc2136.txt)|1997/4|proposed standard|dnsind|-|[3007](https://www.rfc-editor.org/info/rfc3007),[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|
+|2137|[Secure Domain Name System Dynamic Update](rfc_documents/rfc2137.txt)|1997/4|proposed standard|dnssec|[3007](https://www.rfc-editor.org/info/rfc3007)|-|
+|2146|[U.S. Government Internet Domain Names](rfc_documents/rfc2146.txt)|1997/5|informational|[legacy]|-|-|
+|2163|[Using the Internet DNS to Distribute MIXER Conformant Global Address Mapping (MCGAM)](rfc_documents/rfc2163.txt)|1998/1|proposed standard|mixer|-|[3597](https://www.rfc-editor.org/info/rfc3597)|
+|2168|[Resolution of Uniform Resource Identifiers using the Domain Name System](rfc_documents/rfc2168.txt)|1997/6|experimental|urn|-|[2915](https://www.rfc-editor.org/info/rfc2915)|
+|2181|[Clarifications to the DNS Specification](rfc_documents/rfc2181.txt)|1997/7|proposed standard|dnsind|-|[2535](https://www.rfc-editor.org/info/rfc2535),[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035),[4343](https://www.rfc-editor.org/info/rfc4343),[5452](https://www.rfc-editor.org/info/rfc5452),[8767](https://www.rfc-editor.org/info/rfc8767)|
+|2182|[Selection and Operation of Secondary DNS Servers](rfc_documents/rfc2182.txt)|1997/7|best current practice|dnsind|-|-|
+|2219|[Use of DNS Aliases for Network Services](rfc_documents/rfc2219.txt)|1997/10|best current practice|ids|-|-|
+|2230|[Key Exchange Delegation Record for the DNS](rfc_documents/rfc2230.txt)|1997/11|informational|[legacy]|-|-|
+|2240|[A Legal Basis for Domain Name Allocation](rfc_documents/rfc2240.txt)|1997/11|informational|[legacy]|[2352](https://www.rfc-editor.org/info/rfc2352)|-|
+|2308|[Negative Caching of DNS Queries (DNS NCACHE)](rfc_documents/rfc2308.txt)|1998/3|proposed standard|dnsind|-|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035),[6604](https://www.rfc-editor.org/info/rfc6604),[8020](https://www.rfc-editor.org/info/rfc8020),[8499](https://www.rfc-editor.org/info/rfc8499),[9499](https://www.rfc-editor.org/info/rfc9499),[9520](https://www.rfc-editor.org/info/rfc9520)|
+|2317|[Classless IN-ADDR.ARPA delegation](rfc_documents/rfc2317.txt)|1998/3|best current practice|dnsind|-|-|
+|2345|[Domain Names and Company Name Retrieval](rfc_documents/rfc2345.txt)|1998/5|experimental|[legacy]|-|-|
+|2352|[A Convention For Using Legal Names as Domain Names](rfc_documents/rfc2352.txt)|1998/5|informational|[legacy]|-|-|
+|2517|[Building Directories from DNS: Experiences from WWWSeeker](rfc_documents/rfc2517.txt)|1999/2|informational|[legacy]|-|-|
+|2535|[Domain Name System Security Extensions](rfc_documents/rfc2535.txt)|1999/3|proposed standard|dnssec|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|[2931](https://www.rfc-editor.org/info/rfc2931),[3007](https://www.rfc-editor.org/info/rfc3007),[3008](https://www.rfc-editor.org/info/rfc3008),[3090](https://www.rfc-editor.org/info/rfc3090),[3226](https://www.rfc-editor.org/info/rfc3226),[3445](https://www.rfc-editor.org/info/rfc3445),[3597](https://www.rfc-editor.org/info/rfc3597),[3655](https://www.rfc-editor.org/info/rfc3655),[3658](https://www.rfc-editor.org/info/rfc3658),[3755](https://www.rfc-editor.org/info/rfc3755),[3757](https://www.rfc-editor.org/info/rfc3757),[3845](https://www.rfc-editor.org/info/rfc3845)|
+|2536|[DSA KEYs and SIGs in the Domain Name System (DNS)](rfc_documents/rfc2536.txt)|1999/3|proposed standard|dnssec|-|[6944](https://www.rfc-editor.org/info/rfc6944)|
+|2537|[RSA/MD5 KEYs and SIGs in the Domain Name System (DNS)](rfc_documents/rfc2537.txt)|1999/3|proposed standard|dnssec|[3110](https://www.rfc-editor.org/info/rfc3110)|-|
+|2538|[Storing Certificates in the Domain Name System (DNS)](rfc_documents/rfc2538.txt)|1999/3|proposed standard|dnssec|[4398](https://www.rfc-editor.org/info/rfc4398)|-|
+|2539|[Storage of Diffie-Hellman Keys in the Domain Name Sytem (DNS)](rfc_documents/rfc2539.txt)|1999/3|proposed standard|dnssec|-|[6944](https://www.rfc-editor.org/info/rfc6944)|
+|2540|[Detached Domain Name System (DNS) Information](rfc_documents/rfc2540.txt)|1999/3|experimental|dnssec|-|-|
+|2541|[DNS Security Operational Considerations](rfc_documents/rfc2541.txt)|1999/3|informational|dnssec|[4641](https://www.rfc-editor.org/info/rfc4641)|-|
+|2606|[Reserved Top Level DNS Names](rfc_documents/rfc2606.txt)|1999/6|best current practice|dnsind|-|[6761](https://www.rfc-editor.org/info/rfc6761)|
+|2671|[Extension Mechanisms for DNS (EDNS(0))](rfc_documents/rfc2671.txt)|1999/8|proposed standard|dnsind|[6891](https://www.rfc-editor.org/info/rfc6891)|-|
+|2672|[Non-Terminal DNS Name Redirection](rfc_documents/rfc2672.txt)|1999/8|proposed standard|dnsind|[6672](https://www.rfc-editor.org/info/rfc6672)|-|
+|2673|[Binary Labels in the Domain Name System](rfc_documents/rfc2673.txt)|1999/8|historic|dnsind|[6891](https://www.rfc-editor.org/info/rfc6891)|[3363](https://www.rfc-editor.org/info/rfc3363),[3364](https://www.rfc-editor.org/info/rfc3364)|
+|2694|[DNS extensions to Network Address Translators (DNS_ALG)](rfc_documents/rfc2694.txt)|1999/9|informational|nat|-|-|
+|2782|[A DNS RR for specifying the location of services (DNS SRV)](rfc_documents/rfc2782.txt)|2000/2|proposed standard|dnsext|-|[6335](https://www.rfc-editor.org/info/rfc6335),[8553](https://www.rfc-editor.org/info/rfc8553)|
+|2825|[A Tangled Web: Issues of I18N, Domain Names, and the Other Internet Protocols](rfc_documents/rfc2825.txt)|2000/5|informational|iab|-|-|
+|2826|[IAB Technical Comment on the Unique DNS Root](rfc_documents/rfc2826.txt)|2000/5|informational|iab|-|-|
+|2832|[NSI Registry Registrar Protocol (RRP) Version 1.1.0](rfc_documents/rfc2832.txt)|2000/5|informational|[legacy]|-|[3632](https://www.rfc-editor.org/info/rfc3632)|
+|2845|[Secret Key Transaction Authentication for DNS (TSIG)](rfc_documents/rfc2845.txt)|2000/5|proposed standard|dnsext|[8945](https://www.rfc-editor.org/info/rfc8945)|[3645](https://www.rfc-editor.org/info/rfc3645),[4635](https://www.rfc-editor.org/info/rfc4635),[6895](https://www.rfc-editor.org/info/rfc6895)|
+|2870|[Root Name Server Operational Requirements](rfc_documents/rfc2870.txt)|2000/6|best current practice|dnsop|[7720](https://www.rfc-editor.org/info/rfc7720)|-|
+|2874|[DNS Extensions to Support IPv6 Address Aggregation and Renumbering](rfc_documents/rfc2874.txt)|2000/6|historic|ipngwg|-|[3152](https://www.rfc-editor.org/info/rfc3152),[3226](https://www.rfc-editor.org/info/rfc3226),[3363](https://www.rfc-editor.org/info/rfc3363),[3364](https://www.rfc-editor.org/info/rfc3364)|
+|2915|[The Naming Authority Pointer (NAPTR) DNS Resource Record](rfc_documents/rfc2915.txt)|2000/9|proposed standard|urn|[3401](https://www.rfc-editor.org/info/rfc3401),[3402](https://www.rfc-editor.org/info/rfc3402),[3403](https://www.rfc-editor.org/info/rfc3403),[3404](https://www.rfc-editor.org/info/rfc3404)|-|
+|2916|[E.164 number and DNS](rfc_documents/rfc2916.txt)|2000/9|proposed standard|enum|[3761](https://www.rfc-editor.org/info/rfc3761)|-|
+|2929|[Domain Name System (DNS) IANA Considerations](rfc_documents/rfc2929.txt)|2000/9|best current practice|dnsext|[5395](https://www.rfc-editor.org/info/rfc5395)|-|
+|2930|[Secret Key Establishment for DNS (TKEY RR)](rfc_documents/rfc2930.txt)|2000/9|proposed standard|dnsext|-|[6895](https://www.rfc-editor.org/info/rfc6895)|
+|2931|[DNS Request and Transaction Signatures (SIG(0)s)](rfc_documents/rfc2931.txt)|2000/9|proposed standard|dnsext|-|-|
+|3007|[Secure Domain Name System (DNS) Dynamic Update](rfc_documents/rfc3007.txt)|2000/11|proposed standard|dnsext|-|-|
+|3008|[Domain Name System Security (DNSSEC) Signing Authority](rfc_documents/rfc3008.txt)|2000/11|proposed standard|dnsext|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|[3658](https://www.rfc-editor.org/info/rfc3658)|
+|3026|[Liaison to IETF/ISOC on ENUM](rfc_documents/rfc3026.txt)|2001/1|informational|none|-|-|
+|3071|[Reflections on the DNS, RFC 1591, and Categories of Domains](rfc_documents/rfc3071.txt)|2001/2|informational|[legacy]|-|-|
+|3090|[DNS Security Extension Clarification on Zone Status](rfc_documents/rfc3090.txt)|2001/3|proposed standard|dnsext|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|[3658](https://www.rfc-editor.org/info/rfc3658)|
+|3110|[RSA/SHA-1 SIGs and RSA KEYs in the Domain Name System (DNS)](rfc_documents/rfc3110.txt)|2001/5|proposed standard|dnsext|-|[6944](https://www.rfc-editor.org/info/rfc6944)|
+|3123|[A DNS RR Type for Lists of Address Prefixes (APL RR)](rfc_documents/rfc3123.txt)|2001/6|experimental|dnsext|-|-|
+|3130|[Notes from the State-of-the-Technology: DNSSEC](rfc_documents/rfc3130.txt)|2001/6|informational|[legacy]|-|-|
+|3152|[Delegation of IP6.ARPA](rfc_documents/rfc3152.txt)|2001/8|best current practice|[legacy]|[3596](https://www.rfc-editor.org/info/rfc3596)|-|
+|3172|[Management Guidelines & Operational Requirements for the Address and Routing Parameter Area Domain ("arpa")](rfc_documents/rfc3172.txt)|2001/9|best current practice|iab|-|[9120](https://www.rfc-editor.org/info/rfc9120)|
+|3197|[Applicability Statement for DNS MIB Extensions](rfc_documents/rfc3197.txt)|2001/11|informational|dnsext|-|-|
+|3225|[Indicating Resolver Support of DNSSEC](rfc_documents/rfc3225.txt)|2001/12|proposed standard|dnsext|-|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|
+|3226|[DNSSEC and IPv6 A6 aware server/resolver message size requirements](rfc_documents/rfc3226.txt)|2001/12|proposed standard|dnsext|-|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|
+|3258|[Distributing Authoritative Name Servers via Shared Unicast Addresses](rfc_documents/rfc3258.txt)|2002/4|informational|dnsop|-|-|
+|3363|[Representing Internet Protocol version 6 (IPv6) Addresses in the Domain Name System (DNS)](rfc_documents/rfc3363.txt)|2002/8|informational|dnsext|-|[6672](https://www.rfc-editor.org/info/rfc6672)|
+|3364|[Tradeoffs in Domain Name System (DNS) Support for Internet Protocol version 6 (IPv6)](rfc_documents/rfc3364.txt)|2002/8|informational|dnsext|-|-|
+|3375|[Generic Registry-Registrar Protocol Requirements](rfc_documents/rfc3375.txt)|2002/9|informational|provreg|-|-|
+|3397|[Dynamic Host Configuration Protocol (DHCP) Domain Search Option](rfc_documents/rfc3397.txt)|2002/11|proposed standard|none|-|-|
+|3401|[Dynamic Delegation Discovery System (DDDS) Part One: The Comprehensive DDDS](rfc_documents/rfc3401.txt)|2002/10|informational|urn|-|-|
+|3402|[Dynamic Delegation Discovery System (DDDS) Part Three: The Algorithm](rfc_documents/rfc3402.txt)|2002/10|proposed standard|urn|-|-|
+|3403|[Dynamic Delegation Discovery System (DDDS) Part Three: The Domain Name System (DNS) Database](rfc_documents/rfc3403.txt)|2002/10|proposed standard|urn|-|-|
+|3404|[Dynamic Delegation Discovery System (DDDS) Part Four: The Uniform Resource Identifiers (URI)](rfc_documents/rfc3404.txt)|2002/10|proposed standard|urn|-|-|
+|3405|[Dynamic Delegation Discovery System (DDDS) Part Five: URI.ARPA Assignment Procedures](rfc_documents/rfc3405.txt)|2002/10|best current practice|urn|-|[8958](https://www.rfc-editor.org/info/rfc8958)|
+|3425|[Obsoleting IQUERY](rfc_documents/rfc3425.txt)|2002/11|proposed standard|dnsext|-|-|
+|3445|[Limiting the Scope of the KEY Resource Record (RR)](rfc_documents/rfc3445.txt)|2002/12|proposed standard|dnsext|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|-|
+|3454|[Preparation of Internationalized Strings ("stringprep")](rfc_documents/rfc3454.txt)|2002/12|proposed standard|none|[7564](https://www.rfc-editor.org/info/rfc7564)|-|
+|3467|[Role of the Domain Name System (DNS)](rfc_documents/rfc3467.txt)|2003/2|informational|none|-|-|
+|3490|[Internationalized Domain Names for Applications (IDNA)](rfc_documents/rfc3490.txt)|2003/3|proposed standard|idn|[5890](https://www.rfc-editor.org/info/rfc5890),[5891](https://www.rfc-editor.org/info/rfc5891)|-|
+|3491|[Nameprep: A Stringprep Profile for Internationalized Domain Names (IDN)](rfc_documents/rfc3491.txt)|2003/3|proposed standard|idn|[5891](https://www.rfc-editor.org/info/rfc5891)|-|
+|3492|[Punycode: A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)](rfc_documents/rfc3492.txt)|2003/3|proposed standard|idn|-|[5891](https://www.rfc-editor.org/info/rfc5891)|
+|3596|[DNS Extensions to support IP version 6](rfc_documents/rfc3596.txt)|2003/10|internet standard|dnsext|-|-|
+|3597|[Handling Unknown DNS Resource Record (RR) Types](rfc_documents/rfc3597.txt)|2003/9|proposed standard|dnsext|-|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035),[5395](https://www.rfc-editor.org/info/rfc5395),[6195](https://www.rfc-editor.org/info/rfc6195),[6895](https://www.rfc-editor.org/info/rfc6895)|
+|3632|[VeriSign Registry Registrar Protocol (RRP) Version 2.0.0](rfc_documents/rfc3632.txt)|2003/11|informational|[legacy]|-|-|
+|3645|[Generic Security Service Algorithm for Secret Key Transaction Authentication for DNS (GSS-TSIG)](rfc_documents/rfc3645.txt)|2003/10|proposed standard|dnsext|-|-|
+|3646|[DNS Configuration options for Dynamic Host Configuration Protocol for IPv6 (DHCPv6)](rfc_documents/rfc3646.txt)|2003/12|proposed standard|dhc|-|-|
+|3655|[Redefinition of DNS Authenticated Data (AD) bit](rfc_documents/rfc3655.txt)|2003/11|proposed standard|dnsext|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|-|
+|3658|[Delegation Signer (DS) Resource Record (RR)](rfc_documents/rfc3658.txt)|2003/12|proposed standard|dnsext|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|[3755](https://www.rfc-editor.org/info/rfc3755)|
+|3663|[Domain Administrative Data in Lightweight Directory Access Protocol (LDAP)](rfc_documents/rfc3663.txt)|2003/12|experimental|independent|-|-|
+|3675|[.sex Considered Dangerous](rfc_documents/rfc3675.txt)|2004/2|informational|independent|-|-|
+|3681|[Delegation of E.F.F.3.IP6.ARPA](rfc_documents/rfc3681.txt)|2004/1|best current practice|none|-|-|
+|3696|[Application Techniques for Checking and Transformation of Names](rfc_documents/rfc3696.txt)|2004/2|informational|independent|-|-|
+|3707|[Cross Registry Internet Service Protocol (CRISP) Requirements](rfc_documents/rfc3707.txt)|2004/2|informational|crisp|-|-|
+|3730|[Extensible Provisioning Protocol (EPP)](rfc_documents/rfc3730.txt)|2004/3|proposed standard|provreg|[4930](https://www.rfc-editor.org/info/rfc4930)|-|
+|3731|[Extensible Provisioning Protocol (EPP) Domain Name Mapping](rfc_documents/rfc3731.txt)|2004/3|proposed standard|provreg|[4931](https://www.rfc-editor.org/info/rfc4931)|-|
+|3732|[Extensible Provisioning Protocol (EPP) Host Mapping](rfc_documents/rfc3732.txt)|2004/3|proposed standard|provreg|[4932](https://www.rfc-editor.org/info/rfc4932)|-|
+|3733|[Extensible Provisioning Protocol (EPP) Contact Mapping](rfc_documents/rfc3733.txt)|2004/3|proposed standard|provreg|[4933](https://www.rfc-editor.org/info/rfc4933)|-|
+|3743|[Joint Engineering Team (JET) Guidelines for Internationalized Domain Names (IDN) Registration and Administration for Chinese, Japanese, and Korean](rfc_documents/rfc3743.txt)|2004/4|informational|independent|-|-|
+|3755|[Legacy Resolver Compatibility for Delegation Signer (DS)](rfc_documents/rfc3755.txt)|2004/5|proposed standard|dnsext|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|[3757](https://www.rfc-editor.org/info/rfc3757),[3845](https://www.rfc-editor.org/info/rfc3845)|
+|3757|[Domain Name System KEY (DNSKEY) Resource Record (RR) Secure Entry Point (SEP) Flag](rfc_documents/rfc3757.txt)|2004/4|proposed standard|dnsext|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|-|
+|3761|[The E.164 to Uniform Resource Identifiers (URI) Dynamic Delegation Discovery System (DDDS) Application (ENUM)](rfc_documents/rfc3761.txt)|2004/4|proposed standard|enum|[6116](https://www.rfc-editor.org/info/rfc6116),[6117](https://www.rfc-editor.org/info/rfc6117)|-|
+|3832|[Remote Service Discovery in the Service Location Protocol (SLP) via DNS SRV](rfc_documents/rfc3832.txt)|2004/7|experimental|none|-|[8553](https://www.rfc-editor.org/info/rfc8553)|
+|3833|[Threat Analysis of the Domain Name System (DNS)](rfc_documents/rfc3833.txt)|2004/8|informational|dnsext|-|-|
+|3845|[DNS Security (DNSSEC) NextSECure (NSEC) RDATA Format](rfc_documents/rfc3845.txt)|2004/8|proposed standard|dnsext|[4033](https://www.rfc-editor.org/info/rfc4033),[4034](https://www.rfc-editor.org/info/rfc4034),[4035](https://www.rfc-editor.org/info/rfc4035)|-|
+|3901|[DNS IPv6 Transport Operationa Guidelines](rfc_documents/rfc3901.txt)|2004/9|best current practice|dnsop|-|-|
+|3915|[Domain Registry Grace Period Mapping for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc3915.txt)|2004/9|proposed standard|none|-|-|
+|3958|[Domain-Based Application Service Location Using SRV RRs and the Dynamic Delegation Discovery Service (DDDS)](rfc_documents/rfc3958.txt)|2005/1|proposed standard|none|-|[8553](https://www.rfc-editor.org/info/rfc8553)|
+|3982|[IRIS: A Domain Registry (dreg) Type for the Internet Registry Information Service (IRIS)](rfc_documents/rfc3982.txt)|2005/1|proposed standard|crisp|-|-|
+|4025|[A Method for Storing IPSec Keying Material in DNS](rfc_documents/rfc4025.txt)|2005/3|proposed standard|ipseckey|-|-|
+|4027|[Domain Name System Media Types](rfc_documents/rfc4027.txt)|2005/4|informational|none|-|-|
+|4033|[DNS Security Introduction and Requirements](rfc_documents/rfc4033.txt)|2005/3|proposed standard|dnsext|-|[6014](https://www.rfc-editor.org/info/rfc6014),[6840](https://www.rfc-editor.org/info/rfc6840)|
+|4034|[Resource Records for the DNS Security Extensions](rfc_documents/rfc4034.txt)|2005/3|proposed standard|dnsext|-|[4470](https://www.rfc-editor.org/info/rfc4470),[6014](https://www.rfc-editor.org/info/rfc6014),[6840](https://www.rfc-editor.org/info/rfc6840),[6944](https://www.rfc-editor.org/info/rfc6944),[9077](https://www.rfc-editor.org/info/rfc9077),[9824](https://www.rfc-editor.org/info/rfc9824)|
+|4035|[Protocol Modifications for the DNS Security Extentions](rfc_documents/rfc4035.txt)|2005/3|proposed standard|dnsext|-|[4470](https://www.rfc-editor.org/info/rfc4470),[6014](https://www.rfc-editor.org/info/rfc6014),[6840](https://www.rfc-editor.org/info/rfc6840),[8198](https://www.rfc-editor.org/info/rfc8198),[9077](https://www.rfc-editor.org/info/rfc9077),[9520](https://www.rfc-editor.org/info/rfc9520),[9824](https://www.rfc-editor.org/info/rfc9824)|
+|4074|[Common Misbehavior Against DNS Queries for IPv6 Addresses](rfc_documents/rfc4074.txt)|2005/5|informational|dnsop|-|-|
+|4114|[E.164 Number Mapping for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc4114.txt)|2005/6|proposed standard|enum|-|-|
+|4143|[Facsimile Using Internet Mail (IFAX) Service of ENUM](rfc_documents/rfc4143.txt)|2005/11|proposed standard|fax|-|[6118](https://www.rfc-editor.org/info/rfc6118)|
+|4159|[Deprecation of "ip6.int"](rfc_documents/rfc4159.txt)|2005/8|best current practice|none|-|-|
+|4183|[A Suggested Scheme for DNS Resolution of Networks and Gateways](rfc_documents/rfc4183.txt)|2005/9|informational|independent|-|-|
+|4185|[National and Local Characters for DNS Top Level Domain (TLD) Names](rfc_documents/rfc4185.txt)|2005/10|informational|independent|-|-|
+|4255|[Using DNS to Securely Publish Secure Shell (SSH) Key Fingerprints](rfc_documents/rfc4255.txt)|2006/1|proposed standard|secsh|-|-|
+|4290|[Suggested Practices for Registration of Internationalized Domain Names (IDN)](rfc_documents/rfc4290.txt)|2005/12|informational|independent|-|-|
+|4310|[Domain Name System (DNS) Security Extensions Mapping for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc4310.txt)|2005/12|proposed standard|none|[5910](https://www.rfc-editor.org/info/rfc5910)|-|
+|4322|[Opportunistic Encryption using the Internet Key Exchange (IKE)](rfc_documents/rfc4322.txt)|2005/12|informational|none|-|-|
+|4339|[IPv6 Host Configuration of DNS Server Information Approaches](rfc_documents/rfc4339.txt)|2006/2|informational|dnsop|-|-|
+|4343|[Domain Name System (DNS) Case Insensitivity Clarification](rfc_documents/rfc4343.txt)|2006/1|proposed standard|dnsext|-|[5890](https://www.rfc-editor.org/info/rfc5890)|
+|4355|[IANA Registration for Enumservices email, fax, mms, ems, and sms](rfc_documents/rfc4355.txt)|2006/1|proposed standard|enum|-|[6118](https://www.rfc-editor.org/info/rfc6118)|
+|4367|[What's in a Name: False Assumptions about DNS Names](rfc_documents/rfc4367.txt)|2006/2|informational|iab|-|-|
+|4398|[Storing Certificates in the Domain Name System](rfc_documents/rfc4398.txt)|2006/3|proposed standard|dnsext|-|[6944](https://www.rfc-editor.org/info/rfc6944)|
+|4408|[Sender Policy Framework (SPF) for Authorizing Use of Domains in E-Mail, Version 1](rfc_documents/rfc4408.txt)|2006/4|experimental|none|[7208](https://www.rfc-editor.org/info/rfc7208)|[6652](https://www.rfc-editor.org/info/rfc6652)|
+|4431|[The DNSSEC Lookaside Validation (DLV) DNS Resource Record](rfc_documents/rfc4431.txt)|2006/2|historic|none|-|-|
+|4470|[Minimally Covering NSEC Records and DNSSEC On-line Signing](rfc_documents/rfc4470.txt)|2006/4|proposed standard|dnsext|-|-|
+|4471|[Derivation of DNS Name Predecessor and Successor](rfc_documents/rfc4471.txt)|2006/9|experimental|dnsext|-|-|
+|4472|[Operational Considerations and Issues with IPv6 DNS](rfc_documents/rfc4472.txt)|2006/4|informational|dnsop|-|-|
+|4501|[Domain Name System Uniform Resource Identifiers](rfc_documents/rfc4501.txt)|2006/5|proposed standard|none|-|-|
+|4509|[Use of SHA-256 in DNSSEC Delegation Signer (DS) Resource Records (RRs)](rfc_documents/rfc4509.txt)|2006/5|proposed standard|dnsext|-|-|
+|4592|[The Role of Wildcards in the Domain Name System](rfc_documents/rfc4592.txt)|2006/7|proposed standard|dnsext|-|-|
+|4635|[HMAC SHA (Hashed Message Authentication Code, Secure Hash Algorithm) TSIG Algorithm Identifiers](rfc_documents/rfc4635.txt)|2006/8|proposed standard|dnsext|[8945](https://www.rfc-editor.org/info/rfc8945)|-|
+|4641|[DNSSEC Operational Practices](rfc_documents/rfc4641.txt)|2006/9|informational|dnsop|[6781](https://www.rfc-editor.org/info/rfc6781)|-|
+|4686|[Analysis of Threats Motivating DomainKeys Identified Mail (DKIM)](rfc_documents/rfc4686.txt)|2006/9|informational|dkim|-|-|
+|4690|[Review and Recommendations for Internationalized Domain Names (IDNs)](rfc_documents/rfc4690.txt)|2006/9|informational|iab|-|-|
+|4697|[Observed DNS Resolution Misbehavior](rfc_documents/rfc4697.txt)|2006/1|best current practice|dnsop|-|[9520](https://www.rfc-editor.org/info/rfc9520)|
+|4698|[IRIS: An Address Registry (areg) Type for the Internet Registry Information Service](rfc_documents/rfc4698.txt)|2006/10|proposed standard|crisp|-|-|
+|4701|[A DNS Resource Record (RR) for Encoding Dynamic Host Configuration Protocol (DHCP) Information (DHCID RR)](rfc_documents/rfc4701.txt)|2006/10|proposed standard|dnsext|-|[5494](https://www.rfc-editor.org/info/rfc5494)|
+|4702|[The Dynamic Host Configuration Protocol (DHCP) Client Fully Qualified Domain Name (FQDN) Option](rfc_documents/rfc4702.txt)|2006/10|proposed standard|dhc|-|-|
+|4703|[Resolution of Fully Qualified Domain Name (FQDN) Conflicts among Dynamic Host Configuration Protocol (DHCP) Clients](rfc_documents/rfc4703.txt)|2006/10|proposed standard|dhc|-|-|
+|4704|[The Dynamic Host Configuration Protocol for IPv6 (DHCPv6) Client Fully Qualified Domain Name (FQDN) Option](rfc_documents/rfc4704.txt)|2006/10|proposed standard|dhc|-|-|
+|4713|[Registration and Administration Recommendations for Chinese Domain Names](rfc_documents/rfc4713.txt)|2006/10|informational|independent|-|-|
+|4725|[ENUM Validation Architecture](rfc_documents/rfc4725.txt)|2006/11|informational|enum|-|-|
+|4795|[Link-local Multicast Name Resolution (LLMNR)](rfc_documents/rfc4795.txt)|2007/1|informational|dnsext|-|-|
+|4848|[Domain-Based Application Service Location Using URIs and the Dynamic Delegation Discovery Service (DDDS)](rfc_documents/rfc4848.txt)|2007/4|proposed standard|none|-|-|
+|4870|[Domain-Based Email Authentication Using Public Keys Advertised in the DNS (DomainKeys)](rfc_documents/rfc4870.txt)|2007/5|historic|none|[4871](https://www.rfc-editor.org/info/rfc4871)|-|
+|4871|[DomainKeys Identified Mail (DKIM) Signatures](rfc_documents/rfc4871.txt)|2007/5|proposed standard|dkim|[6376](https://www.rfc-editor.org/info/rfc6376)|[5672](https://www.rfc-editor.org/info/rfc5672)|
+|4892|[Requirements for a Mechanism Identifying a Name Server Instance](rfc_documents/rfc4892.txt)|2007/6|informational|dnsop|-|-|
+|4930|[Extensible Provisioning Protocol (EPP)](rfc_documents/rfc4930.txt)|2007/5|draft standard|none|[5730](https://www.rfc-editor.org/info/rfc5730)|-|
+|4931|[Extensible Provisioning Protocol (EPP) Domain Name Mapping](rfc_documents/rfc4931.txt)|2007/5|draft standard|none|[5731](https://www.rfc-editor.org/info/rfc5731)|-|
+|4932|[Extensible Provisioning Protocol (EPP) Host Mapping](rfc_documents/rfc4932.txt)|2007/5|draft standard|none|[5732](https://www.rfc-editor.org/info/rfc5732)|-|
+|4933|[Extensible Provisioning Protocol (EPP) Contact Mapping](rfc_documents/rfc4933.txt)|2007/5|draft standard|none|[5733](https://www.rfc-editor.org/info/rfc5733)|-|
+|4934|[Extensible Provisioning Protocol (EPP) Transport Over TCP](rfc_documents/rfc4934.txt)|2007/5|draft standard|none|[5734](https://www.rfc-editor.org/info/rfc5734)|-|
+|4955|[DNS Security (DNSSEC) Experiments](rfc_documents/rfc4955.txt)|2007/7|proposed standard|dnsext|-|-|
+|4956|[DNS Security (DNSSEC) Opt-In](rfc_documents/rfc4956.txt)|2007/7|experimental|dnsext|-|-|
+|4986|[Requirements Related to DNS Security (DNSSEC) Trust Anchor Rollover](rfc_documents/rfc4986.txt)|2007/8|informational|dnsext|-|-|
+|5001|[DNS Name Server Identifier (NSID) Option](rfc_documents/rfc5001.txt)|2007/8|proposed standard|dnsext|-|-|
+|5006|[IPv6 Router Advertisement Option for DNS Configuration](rfc_documents/rfc5006.txt)|2007/9|experimental|none|-|-|
+|5011|[Automated Updates of DNS Security (DNSSEC) Trust Anchors](rfc_documents/rfc5011.txt)|2007/9|internet standard|dnsext|-|-|
+|5016|[Requirements for a DomainKeys Identified Mail (DKIM) Signing Practices Protocol](rfc_documents/rfc5016.txt)|2007/10|informational|dkim|-|-|
+|5026|[Mobile IPv6 Bootstrapping in Split Scenario](rfc_documents/rfc5026.txt)|2007/10|proposed standard|mip6|-|[8553](https://www.rfc-editor.org/info/rfc8553)|
+|5074|[DNSSEC Lookaside Validation (DLV)](rfc_documents/rfc5074.txt)|2007/11|historic|none|-|-|
+|5076|[ENUM Validation Information Mapping for the Extensible Provisioning Protocol](rfc_documents/rfc5076.txt)|2007/12|proposed standard|enum|-|-|
+|5144|[A Domain Availability Check (DCHK) Registry Type for the Internet Registry Information Service (IRIS)](rfc_documents/rfc5144.txt)|2008/2|proposed standard|crisp|-|-|
+|5155|[DNS Security (DNSSEC) Hashed Authenticated Denial of Existence](rfc_documents/rfc5155.txt)|2008/3|proposed standard|dnsext|-|[6840](https://www.rfc-editor.org/info/rfc6840),[6944](https://www.rfc-editor.org/info/rfc6944),[9077](https://www.rfc-editor.org/info/rfc9077),[9157](https://www.rfc-editor.org/info/rfc9157),[9276](https://www.rfc-editor.org/info/rfc9276)|
+|5158|[6to4 Reverse DNS Delegation Specification](rfc_documents/rfc5158.txt)|2008/3|informational|none|-|[8996](https://www.rfc-editor.org/info/rfc8996)|
+|5205|[Host Identity Protocol (HIP) Domain Name System (DNS) Extensions](rfc_documents/rfc5205.txt)|2008/4|experimental|hip|[8005](https://www.rfc-editor.org/info/rfc8005)|-|
+|5358|[Preventing Use of Recursive Nameservers in Reflector Attacks](rfc_documents/rfc5358.txt)|2008/10|best current practice|dnsop|-|-|
+|5395|[Domain Name System (DNS) IANA Considerations](rfc_documents/rfc5395.txt)|2008/11|best current practice|dnsext|[6195](https://www.rfc-editor.org/info/rfc6195)|-|
+|5452|[Measures for Making DNS More Resillient against Forged Answers](rfc_documents/rfc5452.txt)|2009/1|proposed standard|dnsext|-|-|
+|5483|[ENUM Implementation Issues and Experiences](rfc_documents/rfc5483.txt)|2009/3|informational|enum|-|-|
+|5507|[Design Choices When Expanding the DNS](rfc_documents/rfc5507.txt)|2009/4|informational|iab|-|-|
+|5509|[Internet Assigned Numbers Authority (IANA) Registration of Instant Messaging and Presence DNS SRV RRs for the Session Initiation Protocol (SIP)](rfc_documents/rfc5509.txt)|2009/4|proposed standard|none|-|-|
+|5526|[The E.164 to Uniform Resource Identifiers (URI) Dynamic Delegation Discovery System (DDDS) Application for Infrastructure ENUM](rfc_documents/rfc5526.txt)|2009/4|informational|enum|-|-|
+|5527|[Combined User and Infrastructure ENUM in the e164.arpa Tree](rfc_documents/rfc5527.txt)|2009/5|informational|enum|-|-|
+|5564|[Linguistic Guidelines for the Use of the Arabic Language in Internet Domains](rfc_documents/rfc5564.txt)|2010/2|informational|independent|-|-|
+|5585|[DomainKeys Identified Mail (DKIM) Service Overview](rfc_documents/rfc5585.txt)|2009/7|informational|dkim|-|-|
+|5617|[DomainKeys Identified Mail (DKIM) Author Domain Signing Practices (ADSP)](rfc_documents/rfc5617.txt)|2009/8|historic|dkim|-|[8553](https://www.rfc-editor.org/info/rfc8553)|
+|5625|[DNS Proxy Implementation Guidelines](rfc_documents/rfc5625.txt)|2009/8|best current practice|dnsext|-|-|
+|5672|[RFC 4871 DomainKeys Identified Mail (DKIM) Signatures -- Update](rfc_documents/rfc5672.txt)|2009/8|proposed standard|dkim|[6376](https://www.rfc-editor.org/info/rfc6376)|-|
+|5679|[Locating IEEE 802.21 Mobility Services Using DNS](rfc_documents/rfc5679.txt)|2009/12|proposed standard|mipshop|-|[8553](https://www.rfc-editor.org/info/rfc8553)|
+|5702|[Use of SHA-2 Algorithms with RSA in DNSKEY and RRSIG Resource Records for DNSSEC](rfc_documents/rfc5702.txt)|2009/1|proposed standard|dnsext|-|[6944](https://www.rfc-editor.org/info/rfc6944)|
+|5730|[Extensible Provisioning Protocol (EPP)](rfc_documents/rfc5730.txt)|2009/8|internet standard|none|-|-|
+|5731|[Extensible Provisioning Protocol (EPP) Domain Name Mapping](rfc_documents/rfc5731.txt)|2009/8|internet standard|none|-|-|
+|5732|[Extensible Provisioning Protocol (EPP) Host Mapping](rfc_documents/rfc5732.txt)|2009/8|internet standard|none|-|-|
+|5733|[Extensible Provisioning Protocol (EPP) Contact Mapping](rfc_documents/rfc5733.txt)|2009/8|internet standard|none|-|-|
+|5734|[Extensible Provisioning Protocol (EPP) Transport over TCP](rfc_documents/rfc5734.txt)|2009/8|internet standard|none|-|[8996](https://www.rfc-editor.org/info/rfc8996)|
+|5782|[DNS Blacklists and Whitelists](rfc_documents/rfc5782.txt)|2010/2|informational|irtf|-|-|
+|5855|[Nameservers for IPv4 and IPv6 Reverse Zones](rfc_documents/rfc5855.txt)|2010/5|best current practice|none|-|-|
+|5863|[DomainKeys Identified Mail (DKIM) Development, Deployment, and Operations](rfc_documents/rfc5863.txt)|2010/5|informational|dkim|-|-|
+|5864|[DNS SRV Resource Records for AFS](rfc_documents/rfc5864.txt)|2010/4|proposed standard|none|-|[8553](https://www.rfc-editor.org/info/rfc8553)|
+|5890|[Internationalized Domain Names for Applications (IDNA): Definitions and Document Framework](rfc_documents/rfc5890.txt)|2010/8|proposed standard|idnabis|-|-|
+|5891|[Internationalized Domain Names for Applications (IDNA): Protocol](rfc_documents/rfc5891.txt)|2010/8|proposed standard|idnabis|-|-|
+|5892|[The Unicode Code Points and Internationalized Domain Names for Applications (IDNA)](rfc_documents/rfc5892.txt)|2010/8|proposed standard|idnabis|-|[8753](https://www.rfc-editor.org/info/rfc8753)|
+|5893|[Right-to-Left Scripts for Internationalized Domain Names for Applications (IDNA)](rfc_documents/rfc5893.txt)|2010/8|proposed standard|idnabis|-|-|
+|5894|[Internationalized Domain Names for Applications (IDNA): Background, Explanation, and Rationale](rfc_documents/rfc5894.txt)|2010/8|informational|idnabis|-|-|
+|5895|[Mapping Characters for Internationalized Domain Names in Applications (IDNA) 2008](rfc_documents/rfc5895.txt)|2010/9|informational|independent|-|-|
+|5910|[Domain Name System (DNS) Security Extensions Mapping for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc5910.txt)|2010/5|proposed standard|none|-|-|
+|5933|[Use of GOST Signature Algorithms in DNSKEY and RRSIG Resource Records for DNSSEC](rfc_documents/rfc5933.txt)|2010/7|historic|dnsext|-|[6944](https://www.rfc-editor.org/info/rfc6944)|
+|5936|[DNS Zone Transfer Protocol (AXFR)](rfc_documents/rfc5936.txt)|2010/6|proposed standard|dnsext|-|[9103](https://www.rfc-editor.org/info/rfc9103)|
+|5966|[DNS Transport over TCP - Implementation Requirements](rfc_documents/rfc5966.txt)|2010/8|proposed standard|dnsext|[7766](https://www.rfc-editor.org/info/rfc7766)|-|
+|5992|[Internationalized Domain Names Registration and Administration Guidelines for European Languages Using Cyrillic](rfc_documents/rfc5992.txt)|2010/10|informational|independent|-|-|
+|6014|[Cryptographic Algorithm Identifier Allocation for DNSSEC](rfc_documents/rfc6014.txt)|2010/11|proposed standard|dnsext|-|[9157](https://www.rfc-editor.org/info/rfc9157)|
+|6055|[IAB Thoughts on Encodings for Internationalized Domain Names](rfc_documents/rfc6055.txt)|2011/2|informational|iab|-|-|
+|6106|[IPv6 Router Advertisement Options for DNS Configuration](rfc_documents/rfc6106.txt)|2010/11|proposed standard|6man|[8106](https://www.rfc-editor.org/info/rfc8106)|-|
+|6116|[The E.164 to Uniform Resource Identifiers (URI) Dynamic Delegation Discovery System (DDDS) Application (ENUM)](rfc_documents/rfc6116.txt)|2011/3|proposed standard|enum|-|-|
+|6117|[IANA Registration of Enumservices: Guide, Template, and IANA Considerations](rfc_documents/rfc6117.txt)|2011/3|proposed standard|enum|-|-|
+|6118|[Update of Legacy IANA Registrations of Enumservices](rfc_documents/rfc6118.txt)|2011/3|proposed standard|enum|-|-|
+|6125|[Representation and Verification of Domain-Based Application Service Identity within Internet Public Key Infrastructure Using X.509 (PKIX) Certificates in the Context of Transport Layer Security (TLS)](rfc_documents/rfc6125.txt)|2011/3|proposed standard|none|[9525](https://www.rfc-editor.org/info/rfc9525)|-|
+|6147|[DNS64: DNS Extensions for Network Address Translation from IPv6 Clients to IPv4 Servers](rfc_documents/rfc6147.txt)|2011/4|proposed standard|behave|-|-|
+|6168|[Requirements for Management of Name Servers for the DNS](rfc_documents/rfc6168.txt)|2011/5|informational|dnsop|-|-|
+|6186|[Use of SRV Records for Locating Email Submission/Access Services](rfc_documents/rfc6186.txt)|2011/3|proposed standard|none|-|[1939](https://www.rfc-editor.org/info/rfc1939),[3501](https://www.rfc-editor.org/info/rfc3501)|
+|6195|[Domain Name System (DNS) IANA Considerations](rfc_documents/rfc6195.txt)|2011/3|best current practice|dnsext|[6895](https://www.rfc-editor.org/info/rfc6895)|-|
+|6303|[Locally Served DNS Zones](rfc_documents/rfc6303.txt)|2011/7|best current practice|dnsop|-|-|
+|6304|[AS112 Nameserver Operations](rfc_documents/rfc6304.txt)|2011/7|informational|dnsop|[7534](https://www.rfc-editor.org/info/rfc7534)|-|
+|6305|[I'm Being Attacked by PRISONER.IANA.ORG!](rfc_documents/rfc6305.txt)|2011/7|informational|dnsop|-|-|
+|6335|[Internet Assigned Numbers Authority (IANA) Procedures for the Management of the Service Name and Transport Protocol Port Number Registry](rfc_documents/rfc6335.txt)|2011/8|best current practice|tsvwg|-|-|
+|6376|[DomainKeys Identified Mail (DKIM) Signatures](rfc_documents/rfc6376.txt)|2011/9|internet standard|dkim|-|[8301](https://www.rfc-editor.org/info/rfc8301),[8463](https://www.rfc-editor.org/info/rfc8463),[8553](https://www.rfc-editor.org/info/rfc8553),[8616](https://www.rfc-editor.org/info/rfc8616)|
+|6377|[DomainKeys Identified Mail (DKIM) and Mailing Lists](rfc_documents/rfc6377.txt)|2011/9|best current practice|dkim|-|-|
+|6394|[Use Cases and Requirements for DNS-based Authentication of Named Entities (DANE)](rfc_documents/rfc6394.txt)|2011/10|informational|dane|-|-|
+|6452|[The Unicode Code Points and Internationalized Domain Names for Applications (IDNA) - Unicode 6.0](rfc_documents/rfc6452.txt)|2011/11|proposed standard|appsawg|-|-|
+|6471|[Overview of Best Email DNS-based List (DNSBL) Operational Practices](rfc_documents/rfc6471.txt)|2012/1|informational|irtf|-|-|
+|6541|[DomainKeys Identified Mail (DKIM) Authorized Third-Party Signatures](rfc_documents/rfc6541.txt)|2012/2|experimental|none|-|-|
+|6563|[Moving A6 to Historic Status](rfc_documents/rfc6563.txt)|2012/3|informational|none|-|-|
+|6589|[Considerations for Transitioning Content to IPv6](rfc_documents/rfc6589.txt)|2012/4|informational|v6ops|-|-|
+|6594|[Use of the SHA-256 Algorithm with RSA, Digital Signature Algorithm (DSA), and Elliptic Curve DSA (ECDSA) in SSHFP Resource Records](rfc_documents/rfc6594.txt)|2012/4|proposed standard|none|-|-|
+|6604|[xNAME RCODE and Status Bits Clarification](rfc_documents/rfc6604.txt)|2012/4|proposed standard|dnsext|-|-|
+|6605|[Elliptic Curve Digital Signature Algorithm (DSA) for DNSSEC](rfc_documents/rfc6605.txt)|2012/4|proposed standard|dnsext|-|-|
+|6641|[Using DNS SRV to Specify a Global File Namespace with NFS Version 4](rfc_documents/rfc6641.txt)|2012/6|proposed standard|nfsv4|-|-|
+|6651|[Extensions to DomainKeys Identified Mail (DKIM) for Failure Reporting](rfc_documents/rfc6651.txt)|2012/6|proposed standard|marf|-|-|
+|6652|[Sender Policy Framework (SPF) Authentication Failure Reporting Using the Abuse Reporting Format](rfc_documents/rfc6652.txt)|2012/6|proposed standard|marf|-|-|
+|6672|[DNAME Redirection in the DNS](rfc_documents/rfc6672.txt)|2012/6|proposed standard|dnsext|-|-|
+|6686|[Resolution of the Sender Policy Framework (SPF) and Sender ID Experiments](rfc_documents/rfc6686.txt)|2012/7|informational|spfbis|-|-|
+|6698|[The DNS-Based Authentication of Named Entities (DANE) Transport Layer Security (TLS) Protocol: TLSA](rfc_documents/rfc6698.txt)|2012/8|proposed standard|dane|-|[7218](https://www.rfc-editor.org/info/rfc7218),[7671](https://www.rfc-editor.org/info/rfc7671),[8749](https://www.rfc-editor.org/info/rfc8749)|
+|6725|[DNS Security (DNSSEC) DNSKEY Algorithm IANA Registry Updates](rfc_documents/rfc6725.txt)|2012/8|proposed standard|dnsext|-|-|
+|6731|[Improved Recursive DNS Server Selection for Multi-Interfaced Nodes](rfc_documents/rfc6731.txt)|2012/12|proposed standard|mif|-|-|
+|6742|[DNS Resource Records for the Identifier-Locator Network Protocol (ILNP)](rfc_documents/rfc6742.txt)|2012/11|experimental|irtf|-|-|
+|6761|[Special-Use Domain Names](rfc_documents/rfc6761.txt)|2013/2|proposed standard|none|-|-|
+|6762|[Multicast DNS](rfc_documents/rfc6762.txt)|2013/2|proposed standard|none|-|-|
+|6763|[DNS-Based Service Discovery](rfc_documents/rfc6763.txt)|2013/2|proposed standard|none|-|[8553](https://www.rfc-editor.org/info/rfc8553)|
+|6781|[DNSSEC Operational Practices, Version 2](rfc_documents/rfc6781.txt)|2012/12|informational|dnsop|[4641](https://www.rfc-editor.org/info/rfc4641)|-|
+|6804|[DISCOVER: Supporting Multicast DNS Queries](rfc_documents/rfc6804.txt)|2012/11|historic|independent|-|-|
+|6840|[Clarifications and Implementation Notes for DNS Security (DNSSEC)](rfc_documents/rfc6840.txt)|2013/2|proposed standard|dnsext|-|[8749](https://www.rfc-editor.org/info/rfc8749)|
+|6841|[A Framework for DNSSEC Policies and DNSSEC Practice Statements](rfc_documents/rfc6841.txt)|2013/1|informational|dnsop|-|-|
+|6844|[DNS Certification Authority Authorization (CAA) Resource Record](rfc_documents/rfc6844.txt)|2013/1|proposed standard|pkix|[8659](https://www.rfc-editor.org/info/rfc8659)|-|
+|6891|[Extension Mechanisms for DNS (EDNS(0))](rfc_documents/rfc6891.txt)|2013/4|internet standard|dnsext|-|-|
+|6895|[Domain Name System (DNS) IANA Considerations](rfc_documents/rfc6895.txt)|2013/4|best current practice|dnsext|-|-|
+|6912|[Principles for Unicode Code Point Inclusion in Labels in the DNS](rfc_documents/rfc6912.txt)|2013/4|informational|iab|-|-|
+|6927|[Variants in Second-Level Names Registered in Top-Level Domains](rfc_documents/rfc6927.txt)|2013/5|informational|independent|-|-|
+|6944|[Applicability Statement: DNS Security (DNSSEC) DNSKEY Algorithm Implementation Status](rfc_documents/rfc6944.txt)|2013/4|proposed standard|dnsext|[8624](https://www.rfc-editor.org/info/rfc8624)|-|
+|6950|[Architectural Considerations on Application Features in the DNS](rfc_documents/rfc6950.txt)|2013/10|informational|iab|-|-|
+|6975|[Signaling Cryptographic Algorithm Understanding in DNS Security Extensions (DNSSEC)](rfc_documents/rfc6975.txt)|2013/7|proposed standard|dnsext|-|-|
+|7043|[Resource Records for EUI-48 and EUI-64 Addresses in the DNS](rfc_documents/rfc7043.txt)|2013/10|informational|none|-|-|
+|7050|[Discovery of the IPv6 Prefix Used for IPv6 Address Synthesis](rfc_documents/rfc7050.txt)|2013/11|proposed standard|behave|-|[8880](https://www.rfc-editor.org/info/rfc8880)|
+|7051|[Analysis of Solution Proposals for Hosts to Learn NAT64 Prefix](rfc_documents/rfc7051.txt)|2013/11|informational|behave|-|-|
+|7085|[Top-Level Domains That Are Already Dotless](rfc_documents/rfc7085.txt)|2013/12|informational|independent|-|-|
+|7108|[A Summary of Various Mechanisms Deployed at L-Root for the Identification of Anycast Nodes](rfc_documents/rfc7108.txt)|2014/1|informational|independent|-|-|
+|7129|[Authenticated Denial of Existence in the DNS](rfc_documents/rfc7129.txt)|2014/2|informational|independent|-|-|
+|7208|[Sender Policy Framework (SPF) for Authorizing Use of Domains in Email, Version 1](rfc_documents/rfc7208.txt)|2014/4|proposed standard|spfbis|-|[7372](https://www.rfc-editor.org/info/rfc7372),[8553](https://www.rfc-editor.org/info/rfc8553),[8616](https://www.rfc-editor.org/info/rfc8616)|
+|7216|[Location Information Server (LIS) Discovery Using IP Addresses and Reverse DNS](rfc_documents/rfc7216.txt)|2014/4|proposed standard|geopriv|-|-|
+|7218|[Adding Acronyms to Simplify Conversations about DNS-Based Authentication of Named Entities (DANE)](rfc_documents/rfc7218.txt)|2014/4|proposed standard|dane|-|-|
+|7304|[A Method for Mitigating Namespace Collisions](rfc_documents/rfc7304.txt)|2014/7|informational|independent|-|-|
+|7314|[Extension Mechanisms for DNS (EDNS) EXPIRE Option](rfc_documents/rfc7314.txt)|2014/7|experimental|independent|-|-|
+|7336|[Framework for Content Distribution Network Interconnection (CDNI)](rfc_documents/rfc7336.txt)|2014/8|informational|cdni|-|-|
+|7344|[Automating DNSSEC Delegation Trust Maintenance](rfc_documents/rfc7344.txt)|2014/9|proposed standard|dnsop|-|[8078](https://www.rfc-editor.org/info/rfc8078),[9615](https://www.rfc-editor.org/info/rfc9615)|
+|7393|[Using the Port Control Protocol (PCP) to Update Dynamic DNS](rfc_documents/rfc7393.txt)|2014/11|informational|independent|-|-|
+|7477|[Child-to-Parent Synchronization in DNS](rfc_documents/rfc7477.txt)|2015/3|proposed standard|dnsop|-|-|
+|7479|[Using Ed25519 in SSHFP Resource Records](rfc_documents/rfc7479.txt)|2015/3|informational|none|-|-|
+|7482|[Registration Data Access Protocol (RDAP) Query Format](rfc_documents/rfc7482.txt)|2015/3|proposed standard|weirds|[9082](https://www.rfc-editor.org/info/rfc9082)|-|
+|7483|[JSON Responses for the Registration Data Access Protocol (RDAP)](rfc_documents/rfc7483.txt)|2015/3|proposed standard|weirds|[9083](https://www.rfc-editor.org/info/rfc9083)|-|
+|7484|[Finding the Authoritative Registration Data (RDAP) Service](rfc_documents/rfc7484.txt)|2015/3|proposed standard|weirds|[9224](https://www.rfc-editor.org/info/rfc9224)|[8521](https://www.rfc-editor.org/info/rfc8521)|
+|7485|[Inventory and Analysis of WHOIS Registration Objects](rfc_documents/rfc7485.txt)|2015/3|informational|weirds|-|-|
+|7489|[Domain-based Message Authentication, Reporting, and Conformance (DMARC)](rfc_documents/rfc7489.txt)|2015/3|informational|independent|-|[8553](https://www.rfc-editor.org/info/rfc8553),[8616](https://www.rfc-editor.org/info/rfc8616)|
+|7505|[A "Null MX" No Service Resource Record for Domains That Accept No Mail](rfc_documents/rfc7505.txt)|2015/6|proposed standard|appsawg|-|-|
+|7534|[AS112 Nameserver Operations](rfc_documents/rfc7534.txt)|2015/5|informational|dnsop|-|-|
+|7535|[AS112 Redirection Using DNAME](rfc_documents/rfc7535.txt)|2015/5|informational|dnsop|-|-|
+|7553|[The Uniform Resource Identifier (URI) DNS Resource Record](rfc_documents/rfc7553.txt)|2015/6|informational|none|-|-|
+|7558|[Requirements for Scalable DNS-Based Service Discovery (DNS-SD) / Multicast DNS (mDNS) Extensions](rfc_documents/rfc7558.txt)|2015/7|informational|dnssd|-|-|
+|7564|[PRECIS Framework: Preparation, Enforcement, and Comparison of Internationalized Strings in Application Protocols](rfc_documents/rfc7564.txt)|2015/5|proposed standard|precis|[8264](https://www.rfc-editor.org/info/rfc8264)|-|
+|7583|[DNSSEC Key Rollover Timing Considerations](rfc_documents/rfc7583.txt)|2015/10|informational|dnsop|-|-|
+|7626|[DNS Privacy Considerations](rfc_documents/rfc7626.txt)|2015/8|informational|dprive|[9076](https://www.rfc-editor.org/info/rfc9076)|-|
+|7646|[Definition and Use of DNSSEC Negative Trust Anchors](rfc_documents/rfc7646.txt)|2015/9|informational|dnsop|-|-|
+|7671|[The DNS-Based Authentication of Named Entities (DANE) Protocol: Updates and Operational Guidance](rfc_documents/rfc7671.txt)|2015/10|proposed standard|dane|-|-|
+|7672|[SMTP Security via Opportunistic DNS-Based Authentication of Named Entities (DANE) Transport Layer Security (TLS)](rfc_documents/rfc7672.txt)|2015/10|proposed standard|dane|-|-|
+|7673|[Using DNS-Based Authentication of Named Entities (DANE) TLSA Records with SRV Records](rfc_documents/rfc7673.txt)|2015/10|proposed standard|dane|-|-|
+|7686|[The ".onion" Special-Use Domain Name](rfc_documents/rfc7686.txt)|2015/10|proposed standard|dnsop|-|-|
+|7706|[Decreasing Access Time to Root Servers by Running One on Loopback](rfc_documents/rfc7706.txt)|2015/11|informational|dnsop|[8806](https://www.rfc-editor.org/info/rfc8806)|-|
+|7712|[Domain Name Associations (DNA) in the Extensible Messaging and Presence Protocol (XMPP)](rfc_documents/rfc7712.txt)|2015/11|proposed standard|xmpp|-|-|
+|7719|[DNS Terminology](rfc_documents/rfc7719.txt)|2015/12|informational|dnsop|[8499](https://www.rfc-editor.org/info/rfc8499)|-|
+|7720|[DNS Root Name Service Protocol and Deployment Requirements](rfc_documents/rfc7720.txt)|2015/12|best current practice|IESG|-|-|
+|7745|[XML Schemas for Reverse DNS Management](rfc_documents/rfc7745.txt)|2016/1|informational|independent|-|-|
+|7754|[Technical Considerations for Internet Service Blocking and Filtering](rfc_documents/rfc7754.txt)|2016/3|informational|iab|-|-|
+|7766|[DNS Transport over TCP - Implementation Requirements](rfc_documents/rfc7766.txt)|2016/3|proposed standard|dnsop|-|[8490](https://www.rfc-editor.org/info/rfc8490),[9103](https://www.rfc-editor.org/info/rfc9103)|
+|7793|[Adding 100.64.0.0/10 Prefixes to the IPv4 Locally-Served DNS Zones Registry](rfc_documents/rfc7793.txt)|2016/5|best current practice|dnsop|-|-|
+|7816|[DNS Query Name Minimisation to Improve Privacy](rfc_documents/rfc7816.txt)|2016/3|experimental|dnsop|[9156](https://www.rfc-editor.org/info/rfc9156)|-|
+|7817|[Updated Transport Layer Security (TLS) Server Identity Check Procedure for Email-Related Protocols](rfc_documents/rfc7817.txt)|2016/3|proposed standard|uta|-|-|
+|7828|[The edns-tcp-keepalive EDNS0 Option](rfc_documents/rfc7828.txt)|2016/4|proposed standard|dnsop|-|-|
+|7830|[The EDNS(0) Padding Option](rfc_documents/rfc7830.txt)|2016/5|proposed standard|dprive|-|-|
+|7858|[Specification for DNS over Transport Layer Security (TLS)](rfc_documents/rfc7858.txt)|2016/5|proposed standard|dprive|-|[8310](https://www.rfc-editor.org/info/rfc8310)|
+|7871|[Client Subnet in DNS Queries](rfc_documents/rfc7871.txt)|2016/5|informational|dnsop|-|-|
+|7873|[Domain Name System (DNS) Cookies](rfc_documents/rfc7873.txt)|2016/5|proposed standard|dnsop|-|[9018](https://www.rfc-editor.org/info/rfc9018)|
+|7901|[CHAIN Query Requests in DNS](rfc_documents/rfc7901.txt)|2016/6|experimental|dnsop|-|-|
+|7929|[DNS-Based Authentication of Named Entities (DANE) Bindings for OpenPGP](rfc_documents/rfc7929.txt)|2016/8|experimental|dane|-|-|
+|7958|[DNSSEC Trust Anchor Publication for the Root Zone](rfc_documents/rfc7958.txt)|2016/8|informational|independent|[9718](https://www.rfc-editor.org/info/rfc9718)|-|
+|7960|[Interoperability Issues between Domain-based Message Authentication, Reporting, and Conformance (DMARC) and Indirect Email Flows](rfc_documents/rfc7960.txt)|2016/9|informational|dmarc|-|-|
+|8005|[Host Identity Protocol (HIP) Domain Name System (DNS) Extension](rfc_documents/rfc8005.txt)|2016/10|proposed standard|hip|-|-|
+|8020|[NXDOMAIN: There Really is Nothing Underneath](rfc_documents/rfc8020.txt)|2016/11|proposed standard|dnsop|-|[1034](https://www.rfc-editor.org/info/rfc1034),[2308](https://www.rfc-editor.org/info/rfc2308)|
+|8023|[Report from the Workshop and Prize on Root Causes and Mitigation of Name Collisions](rfc_documents/rfc8023.txt)|2016/11|informational|independent|-|-|
+|8027|[DNSSEC Roadblock Avoidance](rfc_documents/rfc8027.txt)|2016/11|best current practice|dnsop|-|-|
+|8056|[Extensible Provisioning Protocol (EPP) and Registration Data Access Protocol (RDAP) Status Mapping](rfc_documents/rfc8056.txt)|2017/1|proposed standard|regext|-|-|
+|8063|[Key Relay Mapping for the Extensible Provisioning Protocol](rfc_documents/rfc8063.txt)|2017/2|proposed standard|regext|-|-|
+|8078|[Managing DS Records from the Parent via CDS/CDNSKEY](rfc_documents/rfc8078.txt)|2017/3|proposed standard|dnsop|-|[9615](https://www.rfc-editor.org/info/rfc9615)|
+|8080|[Edwards-Curve Digital Security Algorithm (EdDSA) for DNSSEC](rfc_documents/rfc8080.txt)|2017/2|proposed standard|curdle|-|-|
+|8094|[DNS over Datagram Transport Layer Security (DTLS)](rfc_documents/rfc8094.txt)|2017/2|experimental|dprive|-|-|
+|8106|[IPv6 Router Advertisement Options for DNS Configuration](rfc_documents/rfc8106.txt)|2017/3|proposed standard|6man|-|-|
+|8109|[Initializing a DNS Resolver with Priming Queries](rfc_documents/rfc8109.txt)|2017/3|best current practice|dnsop|[9609](https://www.rfc-editor.org/info/rfc9609)|-|
+|8117|[Current Hostname Practice Considered Harmful](rfc_documents/rfc8117.txt)|2017/3|informational|intarea|-|-|
+|8128|[IETF Appointment Procedures for the ICANN Root Zone Evolution Review Committee](rfc_documents/rfc8128.txt)|2017/3|informational|iab|-|-|
+|8145|[Signaling Trust Anchor Knowledge in DNS Security Extensions (DNSSEC)](rfc_documents/rfc8145.txt)|2017/4|proposed standard|dnsop|-|[8553](https://www.rfc-editor.org/info/rfc8553)|
+|8162|[Using Secure DNS to Associate Certificates with Domain Names for S/MIME](rfc_documents/rfc8162.txt)|2017/5|experimental|dane|-|-|
+|8198|[Aggressive Use of DNSSEC-Validated Cache](rfc_documents/rfc8198.txt)|2017/7|proposed standard|dnsop|-|[9077](https://www.rfc-editor.org/info/rfc9077)|
+|8222|[Selecting Labels for Use with Conventional DNS and Other Resolution Systems in DNS-based Service Discovery](rfc_documents/rfc8222.txt)|2017/9|informational|dnssd|-|-|
+|8244|[Special-Use Domain Names Problem Statement](rfc_documents/rfc8244.txt)|2017/10|informational|dnsop|-|-|
+|8264|[PRECIS Framework: Preparation, Enforcement, and Comparison of Internationalized Strings in Application Protocols](rfc_documents/rfc8264.txt)|2017/10|proposed standard|precis|-|-|
+|8301|[Cryptographic Algorithm and Key Usage Update to DomainKeys Identified Mail (DKIM)](rfc_documents/rfc8301.txt)|2018/1|proposed standard|dcrup|-|-|
+|8310|[Usage Profiles for DNS over TLS and DNS over DTLS](rfc_documents/rfc8310.txt)|2018/3|proposed standard|dprive|-|-|
+|8324|[DNS Privacy, Authorization, Special Uses, Encoding, Characters, Matching, and Root Structure: Time for Another Look?](rfc_documents/rfc8324.txt)|2018/2|informational|independent|-|-|
+|8334|[Launch Phase Mapping for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc8334.txt)|2018/3|proposed standard|regext|-|-|
+|8375|[Special-Use Domain 'home.arpa.'](rfc_documents/rfc8375.txt)|2018/5|proposed standard|homenet|-|-|
+|8427|[Representing DNS Messages in JSON](rfc_documents/rfc8427.txt)|2018/7|informational|none|-|-|
+|8463|[A New Cryptographic Signature Method for DomainKeys Identified Mail (DKIM)](rfc_documents/rfc8463.txt)|2018/9|proposed standard|dcrup|-|-|
+|8467|[Padding Policies for Extension Mechanisms for DNS (EDNS(0))](rfc_documents/rfc8467.txt)|2018/10|experimental|dprive|-|-|
+|8482|[Providing Minimal-Sized Responses to DNS Queries That Have QTYPE=ANY](rfc_documents/rfc8482.txt)|2019/1|proposed standard|dnsop|-|-|
+|8483|[Yeti DNS Testbed](rfc_documents/rfc8483.txt)|2018/10|informational|independent|-|-|
+|8484|[DNS Queries over HTTPS (DoH)](rfc_documents/rfc8484.txt)|2018/10|proposed standard|doh|-|-|
+|8490|[DNS Stateful Operations](rfc_documents/rfc8490.txt)|2019/3|proposed standard|dnsop|-|-|
+|8495|[Allocation Token Extension for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc8495.txt)|2018/11|proposed standard|regext|-|-|
+|8499|[DNS Terminology](rfc_documents/rfc8499.txt)|2019/1|best current practice|dnsop|[9499](https://www.rfc-editor.org/info/rfc9499)|-|
+|8501|[Reverse DNS in IPv6 for Internet Service Providers](rfc_documents/rfc8501.txt)|2018/11|informational|dnsop|-|-|
+|8509|[A Root Key Trust Anchor Sentinel for DNS](rfc_documents/rfc8509.txt)|2018/12|proposed standard|dnsop|-|-|
+|8521|[Registration Data Access Protocol (RDAP) Object Tagging](rfc_documents/rfc8521.txt)|2018/11|best current practice|regext|-|-|
+|8543|[Extensible Provisioning Protocol (EPP) Organization Mapping](rfc_documents/rfc8543.txt)|2019/3|proposed standard|regext|-|-|
+|8544|[Organization Extension for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc8544.txt)|2019/4|proposed standard|regext|-|-|
+|8552|[Scoped Interpretation of DNS Resource Records through "Underscored" Naming of Attribute Leaves](rfc_documents/rfc8552.txt)|2019/3|best current practice|dnsop|-|-|
+|8553|[DNS Attrleaf Changes: Fixing Specifications That Use Underscored Node Names](rfc_documents/rfc8553.txt)|2019/3|best current practice|dnsop|-|-|
+|8555|[Automatic Certificate Management Environment (ACME)](rfc_documents/rfc8555.txt)|2019/3|proposed standard|acme|-|-|
+|8567|[Customer Management DNS Resource Records](rfc_documents/rfc8567.txt)|2019/4|informational|independent|-|-|
+|8590|[Change Poll Extension for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc8590.txt)|2019/5|proposed standard|regext|-|-|
+|8598|[Split DNS Configuration for the Internet Key Exchange Protocol Version 2 (IKEv2)](rfc_documents/rfc8598.txt)|2019/5|proposed standard|ipsecme|-|-|
+|8616|[Email Authentication for Internationalized Mail](rfc_documents/rfc8616.txt)|2019/6|proposed standard|dmarc|-|-|
+|8618|[Compacted-DNS (C-DNS): A Format for DNS Packet Capture](rfc_documents/rfc8618.txt)|2019/9|proposed standard|dnsop|-|-|
+|8624|[Algorithm Implementation Requirements and Usage Guidance for DNSSEC](rfc_documents/rfc8624.txt)|2019/6|proposed standard|dnsop|-|[9157](https://www.rfc-editor.org/info/rfc9157)|
+|8657|[Certification Authority Authorization (CAA) Record Extensions for Account URI and Automatic Certificate Management Environment (ACME) Method Binding](rfc_documents/rfc8657.txt)|2019/11|proposed standard|acme|-|-|
+|8659|[DNS Certification Authority Authorization (CAA) Resource Record](rfc_documents/rfc8659.txt)|2019/11|proposed standard|lamps|-|-|
+|8683|[Additional Deployment Guidelines for NAT64/464XLAT in Operator and Enterprise Networks](rfc_documents/rfc8683.txt)|2019/11|informational|v6ops|-|-|
+|8748|[Registry Fee Extension for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc8748.txt)|2020/3|proposed standard|regext|-|-|
+|8749|[Moving DNSSEC Lookaside Validation (DLV) to Historic Status](rfc_documents/rfc8749.txt)|2020/3|proposed standard|dnsop|-|-|
+|8753|[Internationalized Domain Names for Applications (IDNA) Review for New Unicode Versions](rfc_documents/rfc8753.txt)|2020/4|proposed standard|none|-|-|
+|8764|[Apple's DNS Long-Lived Queries Protocol](rfc_documents/rfc8764.txt)|2020/6|informational|independent|-|-|
+|8765|[DNS Push Notifications](rfc_documents/rfc8765.txt)|2020/6|proposed standard|dnssd|-|-|
+|8766|[Discovery Proxy for Multicast DNS-Based Service Discovery](rfc_documents/rfc8766.txt)|2020/6|proposed standard|dnssd|-|-|
+|8767|[Serving Stale Data to Improve DNS Resiliency](rfc_documents/rfc8767.txt)|2020/3|proposed standard|dnsop|-|-|
+|8777|[DNS Reverse IP Automatic Multicast Tunneling (AMT) Discovery](rfc_documents/rfc8777.txt)|2020/4|proposed standard|mboned|-|-|
+|8806|[Running a Root Server Local to a Resolver](rfc_documents/rfc8806.txt)|2020/6|informational|dnsop|-|-|
+|8807|[Login Security Extension for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc8807.txt)|2020/8|proposed standard|regext|-|-|
+|8880|[Special Use Domain Name 'ipv4only.arpa'](rfc_documents/rfc8880.txt)|2020/8|proposed standard|none|-|-|
+|8882|[DNS-based Service Discovery (DNS-SD) Privacy and Security Requirements](rfc_documents/rfc8882.txt)|2020/9|informational|dnssd|-|-|
+|8900|[IP Fragmentation Considered Fragile](rfc_documents/rfc8900.txt)|2020/9|best current practice|intarea|-|-|
+|8901|[Multi-Signer DNSSEC Models](rfc_documents/rfc8901.txt)|2020/9|informational|dnsop|-|-|
+|8904|[DNS Whitelist (DNSWL) Email Authentication Method Extension](rfc_documents/rfc8904.txt)|2020/9|informational|independent|-|-|
+|8906|[A Common Operational Problem in DNS Servers: Failure to Communicate](rfc_documents/rfc8906.txt)|2020/9|best current practice|dnsop|-|-|
+|8909|[Registry Data Escrow Specification](rfc_documents/rfc8909.txt)|2020/11|proposed standard|regext|-|-|
+|8914|[Extended DNS Errors](rfc_documents/rfc8914.txt)|2020/1|proposed standard|dnsop|-|-|
+|8932|[Recommendations for DNS Privacy Service Operators](rfc_documents/rfc8932.txt)|2020/10|best current practice|dprive|-|-|
+|8945|[Secret Key Transaction Authentication for DNS (TSIG)](rfc_documents/rfc8945.txt)|2020/11|internet standard|dnsop|-|-|
+|8958|[Updated Registration Rules for URI.ARPA](rfc_documents/rfc8958.txt)|2020/12|best current practice|none|-|-|
+|8976|[Message Digest for DNS Zones](rfc_documents/rfc8976.txt)|2021/2|proposed standard|dnsop|-|-|
+|8977|[Registration Data Access Protocol (RDAP) Query Parameters for Result Sorting and Paging](rfc_documents/rfc8977.txt)|2021/1|proposed standard|regext|-|-|
+|8982|[Registration Data Access Protocol (RDAP) Partial Response](rfc_documents/rfc8982.txt)|2021/2|proposed standard|regext|-|-|
+|9018|[Interoperable Domain Name System (DNS) Server Cookies](rfc_documents/rfc9018.txt)|2021/4|proposed standard|dnsop|-|-|
+|9022|[Domain Name Registration Data (DNRD) Objects Mapping](rfc_documents/rfc9022.txt)|2021/5|proposed standard|regext|-|-|
+|9038|[Extensible Provisioning Protocol (EPP) Unhandled Namespaces](rfc_documents/rfc9038.txt)|2021/5|proposed standard|regext|-|-|
+|9076|[DNS Privacy Considerations](rfc_documents/rfc9076.txt)|2021/7|informational|dprive|-|-|
+|9077|[NSEC and NSEC3: TTLs and Aggressive Use](rfc_documents/rfc9077.txt)|2021/7|proposed standard|dnsop|-|-|
+|9082|[Registration Data Access Protocol (RDAP) Query Format](rfc_documents/rfc9082.txt)|2021/6|internet standard|regext|-|-|
+|9083|[JSON Responses for the Registration Data Access Protocol (RDAP)](rfc_documents/rfc9083.txt)|2021/6|internet standard|regext|-|-|
+|9091|[Experimental Domain-Based Message Authentication, Reporting, and Conformance (DMARC) Extension for Public Suffix Domains](rfc_documents/rfc9091.txt)|2021/7|experimental|dmarc|-|-|
+|9095|[Extensible Provisioning Protocol (EPP) Domain Name Mapping Extension for Strict Bundling Registration](rfc_documents/rfc9095.txt)|2021/7|informational|independent|-|-|
+|9102|[TLS DNSSEC Chain Extension](rfc_documents/rfc9102.txt)|2021/8|experimental|independent|-|-|
+|9103|[DNS Zone Transfer over TLS](rfc_documents/rfc9103.txt)|2021/8|proposed standard|dprive|-|-|
+|9108|[YANG Types for DNS Classes and Resource Record Types](rfc_documents/rfc9108.txt)|2021/9|proposed standard|dnsop|-|-|
+|9120|[Nameservers for the Address and Routing Parameter Area ("arpa") Domain](rfc_documents/rfc9120.txt)|2021/10|informational|iab|-|-|
+|9121|[Deprecating Infrastructure "int" Domains](rfc_documents/rfc9121.txt)|2023/4|informational|none|-|-|
+|9154|[Extensible Provisioning Protocol (EPP) Secure Authorization Information for Transfer](rfc_documents/rfc9154.txt)|2021/12|proposed standard|regext|-|-|
+|9156|[DNS Query Name Minimisation to Improve Privacy](rfc_documents/rfc9156.txt)|2021/11|proposed standard|dnsop|-|-|
+|9157|[Revised IANA Considerations for DNSSEC](rfc_documents/rfc9157.txt)|2021/12|proposed standard|dnsop|-|-|
+|9167|[Registry Maintenance Notification for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc9167.txt)|2021/12|proposed standard|regext|-|-|
+|9199|[Considerations for Large Authoritative DNS Server Operators](rfc_documents/rfc9199.txt)|2022/3|informational|independent|-|-|
+|9210|[DNS Transport over TCP - Operational Requirements](rfc_documents/rfc9210.txt)|2022/3|best current practice|dnsop|-|-|
+|9224|[Finding the Authoritative Registration Data Access Protocol (RDAP) Service](rfc_documents/rfc9224.txt)|2022/3|internet standard|regext|-|-|
+|9230|[Oblivious DNS over HTTPS](rfc_documents/rfc9230.txt)|2022/6|experimental|independent|-|-|
+|9233|[Internationalized Domain Names for Applications 2008 (IDNA2008) and Unicode 12.0.0](rfc_documents/rfc9233.txt)|2022/3|proposed standard|none|-|-|
+|9250|[DNS over Dedicated QUIC Connections](rfc_documents/rfc9250.txt)|2022/5|proposed standard|dprive|-|-|
+|9267|[Common Implementation Anti-Patterns Related to Domain Name System (DNS) Resource Record (RR) Processing](rfc_documents/rfc9267.txt)|2022/7|informational|independent|-|-|
+|9276|[Guidance for NSEC3 Parameter Settings](rfc_documents/rfc9276.txt)|2022/8|best current practice|dnsop|-|-|
+|9361|[ICANN Trademark Clearinghouse (TMCH) Functional Specifications](rfc_documents/rfc9361.txt)|2023/3|informational|independent|-|-|
+|9364|[DNS Security Extensions (DNSSEC)](rfc_documents/rfc9364.txt)|2023/2|best current practice|dnsop|-|-|
+|9432|[DNS Catalog Zones](rfc_documents/rfc9432.txt)|2023/7|proposed standard|dnsop|-|-|
+|9444|[Automated Certificate Management Environment (ACME) for Subdomains](rfc_documents/rfc9444.txt)|2023/8|proposed standard|acme|-|-|
+|9446|[Reflections on Ten Years Past the Snowden Revelations](rfc_documents/rfc9446.txt)|2023/7|informational|independent|-|-|
+|9460|[Serving Binding and Parameter Specification via the DNS (SVCB and HTTPS Resource Records)](rfc_documents/rfc9460.txt)|2023/11|proposed standard|dnsop|-|-|
+|9461|[Service Binding Mapping for DNS Servers](rfc_documents/rfc9461.txt)|2023/11|proposed standard|add|-|-|
+|9462|[Discovery of Designated Resolvers](rfc_documents/rfc9462.txt)|2023/11|proposed standard|add|-|-|
+|9463|[DHCP and Router Advertisement Options for the Discovery of Network-designated Resolvers (DNR)](rfc_documents/rfc9463.txt)|2023/11|proposed standard|add|-|-|
+|9464|[Internet Key Exchange Protocol Version 2 (IKEv2) Configuration for Encrypted DNS](rfc_documents/rfc9464.txt)|2023/11|proposed standard|ipsecme|-|-|
+|9471|[DNS Glue Requirements in Referral Responses](rfc_documents/rfc9471.txt)|2023/9|proposed standard|dnsop|-|-|
+|9476|[The .alt Special-Use Top-Level Domain](rfc_documents/rfc9476.txt)|2023/9|proposed standard|dnsop|-|-|
+|9498|[The GNU Name System](rfc_documents/rfc9498.txt)|2023/11|informational|independent|-|-|
+|9499|[DNS Terminology](rfc_documents/rfc9499.txt)|2024/3|best current practice|dnsop|-|-|
+|9505|[A Survey of Worldwide Censorship Techniques](rfc_documents/rfc9505.txt)|2023/11|informational|irtf|-|-|
+|9517|[A URN Namespace for the Data Documentation Initiative (DDI)](rfc_documents/rfc9517.txt)|2024/1|informational|independent|-|-|
+|9520|[Negative Caching of DNS Resolution Failures](rfc_documents/rfc9520.txt)|2023/12|proposed standard|dnsop|-|-|
+|9525|[Service Identity in TLS](rfc_documents/rfc9525.txt)|2023/11|proposed standard|uta|-|-|
+|9526|[Simple Provisioning of Public Names for Residential Networks](rfc_documents/rfc9526.txt)|2024/1|experimental|homenet|-|-|
+|9536|[Registration Data Access Protocol (RDAP) Reverse Search](rfc_documents/rfc9536.txt)|2024/4|proposed standard|regext|-|-|
+|9537|[Redacted Fields in the Registration Data Access Protocol (RDAP)](rfc_documents/rfc9537.txt)|2024/3|proposed standard|regext|-|-|
+|9539|[Unilateral Opportunistic Deployment of Encrypted Recursive-to-Authoritative DNS](rfc_documents/rfc9539.txt)|2024/2|experimental|dprive|-|-|
+|9540|[Discovery of Oblivious Services via Service Binding Records](rfc_documents/rfc9540.txt)|2024/2|proposed standard|ohai|-|-|
+|9549|[Internationalization Updates to RFC 5280](rfc_documents/rfc9549.txt)|2024/3|proposed standard|lamps|-|-|
+|9558|[Use of GOST 2012 Signature Algorithms in DNSKEY and RRSIG Resource Records for DNSSEC](rfc_documents/rfc9558.txt)|2024/4|informational|independent|-|-|
+|9560|[Federated Authentication for the Registration Data Access Protocol (RDAP) Using OpenID Connect](rfc_documents/rfc9560.txt)|2024/4|proposed standard|regext|-|-|
+|9563|[SM2 Digital Signature Algorithm for DNSSEC](rfc_documents/rfc9563.txt)|2024/12|informational|independent|-|-|
+|9567|[DNS Error Reporting](rfc_documents/rfc9567.txt)|2024/4|proposed standard|dnsop|-|-|
+|9606|[DNS Resolver Information](rfc_documents/rfc9606.txt)|2024/6|proposed standard|add|-|-|
+|9609|[Initializing a DNS Resolver with Priming Queries](rfc_documents/rfc9609.txt)|2025/2|best current practice|dnsop|-|-|
+|9615|[Automatic DNSSEC Bootstrapping Using Authenticated Signals from the Zone's Operator](rfc_documents/rfc9615.txt)|2024/7|proposed standard|dnsop|-|-|
+|9619|[In the DNS, QDCount Is (Usually) One](rfc_documents/rfc9619.txt)|2024/7|proposed standard|dnsop|-|-|
+|9660|[The DNS Zone Version (ZONEVERSION) Option](rfc_documents/rfc9660.txt)|2024/10|proposed standard|dnsop|-|-|
+|9664|[An EDNS(0) Option to Negotiate Leases on DNS Updates](rfc_documents/rfc9664.txt)|2025/6|proposed standard|dnssd|-|-|
+|9665|[Service Registration Protocol for DNS-based Service Discovery](rfc_documents/rfc9665.txt)|2025/6|proposed standard|dnssd|-|-|
+|9704|[Establishing Local DNS Authority in Validated Split-Horizon Environments](rfc_documents/rfc9704.txt)|2025/1|proposed standard|add|-|-|
+|9715|[IP Fragmentation Avoidance in DNS over UDP](rfc_documents/rfc9715.txt)|2025/1|informational|dnsop|-|-|
+|9718|[DNSSEC Trust Anchor Publication for the Root Zone](rfc_documents/rfc9718.txt)|2025/1|informational|dnsop|-|-|
+|9726|[Operational Considerations for Use of DNS in Internet of Things (IoT) Devices](rfc_documents/rfc9726.txt)|2025/3|best current practice|opsawg|-|-|
+|9803|[Extensible Provisioning Protocol (EPP) Mapping for DNS Time-to-Live (TTL) Values](rfc_documents/rfc9803.txt)|2025/6|proposed standard|regext|-|-|
+|9824|[Compact Denial of Existence in DNSSEC](rfc_documents/rfc9824.txt)|2025/9|proposed standard|dnsop|-|-|
+|9859|[Generalized DNS Notifications](rfc_documents/rfc9859.txt)|2025/9|proposed standard|dnsop|-|-|
+|9874|[Best Practices for Deletion of Domain and Host Objects in the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc9874.txt)|2025/9|best current practice|regext|-|-|
+
+## Summary
+**Total # of RFCs**: 498
+
+**Total # of valid RFCs**: 290     
+(status: Internet Standard / Proposed Standard / Draft Standard / Best Current Practice)
+
+## References
+- [RFC index](https://www.rfc-editor.org/rfc-index.html)
+- [port-53.info](https://port-53.info/rfcs/)
+- [StatDNS](https://www.statdns.com/rfc/)
+- [DNS-WIKI](https://www.dnswiki.cn/index.php?title=DNS-RFC)
+
+## Todo
+RFC分类
+
+## Contact
+1957078363@qq.com
