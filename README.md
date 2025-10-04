@@ -2,6 +2,8 @@
 
 Last updated: October 3, 2025
 
+| RFC No. | Title | Date | Status | WG/Stream | Obsoleted by | Updated by |
+|---------|-------|------|--------|-----------|--------------|------------|
 |[799](https://www.rfc-editor.org/info/rfc799)|[Internet name domains](rfc_docs/rfc_documents/rfc799.txt)|1981/9|unknown|[legacy]|-|-|
 |[819](https://www.rfc-editor.org/info/rfc819)|[The Domain Naming Convention for Internet User Applications](rfc_docs/rfc_documents/rfc819.txt)|1982/8|unknown|[legacy]|-|-|
 |[881](https://www.rfc-editor.org/info/rfc881)|[Domain names plan and schedule](rfc_docs/rfc_documents/rfc881.txt)|1983/11|unknown|[legacy]|-|[897](https://www.rfc-editor.org/info/rfc897)|
