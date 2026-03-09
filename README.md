@@ -1,6 +1,16 @@
 # DNS-related RFC documents
 
-Last updated: October 3, 2025
+Last updated: 2026-03-10
+
+## Summary
+| Date       | Total # of RFCs | Total # of valid RFCs<sup>*</sup> |
+|------------|-----------------|-----------------------------------|
+| 2026-03-10 | 503             | 294                               |
+| 2025-10-03 | 498             | 290                               |
+
+<sup>*</sup>Status: Internet Standard / Proposed Standard / Draft Standard / Best Current Practice
+
+## RFC details
 
 | RFC No. | Title | Date | Status | WG/Stream | Obsoleted by | Updated by |
 |---------|-------|------|--------|-----------|--------------|------------|
@@ -160,7 +170,7 @@ Last updated: October 3, 2025
 |[4025](https://www.rfc-editor.org/info/rfc4025)|[A Method for Storing IPSec Keying Material in DNS](rfc_documents/rfc4025.txt)|2005/3|proposed standard|ipseckey|-|-|
 |[4027](https://www.rfc-editor.org/info/rfc4027)|[Domain Name System Media Types](rfc_documents/rfc4027.txt)|2005/4|informational|none|-|-|
 |[4033](https://www.rfc-editor.org/info/rfc4033)|[DNS Security Introduction and Requirements](rfc_documents/rfc4033.txt)|2005/3|proposed standard|dnsext|-|[6014](https://www.rfc-editor.org/info/rfc6014),[6840](https://www.rfc-editor.org/info/rfc6840)|
-|[4034](https://www.rfc-editor.org/info/rfc4034)|[Resource Records for the DNS Security Extensions](rfc_documents/rfc4034.txt)|2005/3|proposed standard|dnsext|-|[4470](https://www.rfc-editor.org/info/rfc4470),[6014](https://www.rfc-editor.org/info/rfc6014),[6840](https://www.rfc-editor.org/info/rfc6840),[6944](https://www.rfc-editor.org/info/rfc6944),[9077](https://www.rfc-editor.org/info/rfc9077),[9824](https://www.rfc-editor.org/info/rfc9824)|
+|[4034](https://www.rfc-editor.org/info/rfc4034)|[Resource Records for the DNS Security Extensions](rfc_documents/rfc4034.txt)|2005/3|proposed standard|dnsext|-|[4470](https://www.rfc-editor.org/info/rfc4470),[6014](https://www.rfc-editor.org/info/rfc6014),[6840](https://www.rfc-editor.org/info/rfc6840),[6944](https://www.rfc-editor.org/info/rfc6944),[9077](https://www.rfc-editor.org/info/rfc9077),[9824](https://www.rfc-editor.org/info/rfc9824),[9905](https://www.rfc-editor.org/info/rfc9905)|
 |[4035](https://www.rfc-editor.org/info/rfc4035)|[Protocol Modifications for the DNS Security Extentions](rfc_documents/rfc4035.txt)|2005/3|proposed standard|dnsext|-|[4470](https://www.rfc-editor.org/info/rfc4470),[6014](https://www.rfc-editor.org/info/rfc6014),[6840](https://www.rfc-editor.org/info/rfc6840),[8198](https://www.rfc-editor.org/info/rfc8198),[9077](https://www.rfc-editor.org/info/rfc9077),[9520](https://www.rfc-editor.org/info/rfc9520),[9824](https://www.rfc-editor.org/info/rfc9824)|
 |[4074](https://www.rfc-editor.org/info/rfc4074)|[Common Misbehavior Against DNS Queries for IPv6 Addresses](rfc_documents/rfc4074.txt)|2005/5|informational|dnsop|-|-|
 |[4114](https://www.rfc-editor.org/info/rfc4114)|[E.164 Number Mapping for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc4114.txt)|2005/6|proposed standard|enum|-|-|
@@ -218,7 +228,7 @@ Last updated: October 3, 2025
 |[5074](https://www.rfc-editor.org/info/rfc5074)|[DNSSEC Lookaside Validation (DLV)](rfc_documents/rfc5074.txt)|2007/11|historic|none|-|-|
 |[5076](https://www.rfc-editor.org/info/rfc5076)|[ENUM Validation Information Mapping for the Extensible Provisioning Protocol](rfc_documents/rfc5076.txt)|2007/12|proposed standard|enum|-|-|
 |[5144](https://www.rfc-editor.org/info/rfc5144)|[A Domain Availability Check (DCHK) Registry Type for the Internet Registry Information Service (IRIS)](rfc_documents/rfc5144.txt)|2008/2|proposed standard|crisp|-|-|
-|[5155](https://www.rfc-editor.org/info/rfc5155)|[DNS Security (DNSSEC) Hashed Authenticated Denial of Existence](rfc_documents/rfc5155.txt)|2008/3|proposed standard|dnsext|-|[6840](https://www.rfc-editor.org/info/rfc6840),[6944](https://www.rfc-editor.org/info/rfc6944),[9077](https://www.rfc-editor.org/info/rfc9077),[9157](https://www.rfc-editor.org/info/rfc9157),[9276](https://www.rfc-editor.org/info/rfc9276)|
+|[5155](https://www.rfc-editor.org/info/rfc5155)|[DNS Security (DNSSEC) Hashed Authenticated Denial of Existence](rfc_documents/rfc5155.txt)|2008/3|proposed standard|dnsext|-|[6840](https://www.rfc-editor.org/info/rfc6840),[6944](https://www.rfc-editor.org/info/rfc6944),[9077](https://www.rfc-editor.org/info/rfc9077),[9157](https://www.rfc-editor.org/info/rfc9157),[9276](https://www.rfc-editor.org/info/rfc9276),[9905](https://www.rfc-editor.org/info/rfc9905)|
 |[5158](https://www.rfc-editor.org/info/rfc5158)|[6to4 Reverse DNS Delegation Specification](rfc_documents/rfc5158.txt)|2008/3|informational|none|-|[8996](https://www.rfc-editor.org/info/rfc8996)|
 |[5205](https://www.rfc-editor.org/info/rfc5205)|[Host Identity Protocol (HIP) Domain Name System (DNS) Extensions](rfc_documents/rfc5205.txt)|2008/4|experimental|hip|[8005](https://www.rfc-editor.org/info/rfc8005)|-|
 |[5358](https://www.rfc-editor.org/info/rfc5358)|[Preventing Use of Recursive Nameservers in Reflector Attacks](rfc_documents/rfc5358.txt)|2008/10|best current practice|dnsop|-|-|
@@ -405,7 +415,7 @@ Last updated: October 3, 2025
 |[8598](https://www.rfc-editor.org/info/rfc8598)|[Split DNS Configuration for the Internet Key Exchange Protocol Version 2 (IKEv2)](rfc_documents/rfc8598.txt)|2019/5|proposed standard|ipsecme|-|-|
 |[8616](https://www.rfc-editor.org/info/rfc8616)|[Email Authentication for Internationalized Mail](rfc_documents/rfc8616.txt)|2019/6|proposed standard|dmarc|-|-|
 |[8618](https://www.rfc-editor.org/info/rfc8618)|[Compacted-DNS (C-DNS): A Format for DNS Packet Capture](rfc_documents/rfc8618.txt)|2019/9|proposed standard|dnsop|-|-|
-|[8624](https://www.rfc-editor.org/info/rfc8624)|[Algorithm Implementation Requirements and Usage Guidance for DNSSEC](rfc_documents/rfc8624.txt)|2019/6|proposed standard|dnsop|-|[9157](https://www.rfc-editor.org/info/rfc9157)|
+|[8624](https://www.rfc-editor.org/info/rfc8624)|[Algorithm Implementation Requirements and Usage Guidance for DNSSEC](rfc_documents/rfc8624.txt)|2019/6|proposed standard|dnsop|[9904](https://www.rfc-editor.org/info/rfc9904)|[9157](https://www.rfc-editor.org/info/rfc9157)|
 |[8657](https://www.rfc-editor.org/info/rfc8657)|[Certification Authority Authorization (CAA) Record Extensions for Account URI and Automatic Certificate Management Environment (ACME) Method Binding](rfc_documents/rfc8657.txt)|2019/11|proposed standard|acme|-|-|
 |[8659](https://www.rfc-editor.org/info/rfc8659)|[DNS Certification Authority Authorization (CAA) Resource Record](rfc_documents/rfc8659.txt)|2019/11|proposed standard|lamps|-|-|
 |[8683](https://www.rfc-editor.org/info/rfc8683)|[Additional Deployment Guidelines for NAT64/464XLAT in Operator and Enterprise Networks](rfc_documents/rfc8683.txt)|2019/11|informational|v6ops|-|-|
@@ -449,7 +459,7 @@ Last updated: October 3, 2025
 |[9121](https://www.rfc-editor.org/info/rfc9121)|[Deprecating Infrastructure "int" Domains](rfc_documents/rfc9121.txt)|2023/4|informational|none|-|-|
 |[9154](https://www.rfc-editor.org/info/rfc9154)|[Extensible Provisioning Protocol (EPP) Secure Authorization Information for Transfer](rfc_documents/rfc9154.txt)|2021/12|proposed standard|regext|-|-|
 |[9156](https://www.rfc-editor.org/info/rfc9156)|[DNS Query Name Minimisation to Improve Privacy](rfc_documents/rfc9156.txt)|2021/11|proposed standard|dnsop|-|-|
-|[9157](https://www.rfc-editor.org/info/rfc9157)|[Revised IANA Considerations for DNSSEC](rfc_documents/rfc9157.txt)|2021/12|proposed standard|dnsop|-|-|
+|[9157](https://www.rfc-editor.org/info/rfc9157)|[Revised IANA Considerations for DNSSEC](rfc_documents/rfc9157.txt)|2021/12|proposed standard|dnsop|-|[9904](https://www.rfc-editor.org/info/rfc9904)|
 |[9167](https://www.rfc-editor.org/info/rfc9167)|[Registry Maintenance Notification for the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc9167.txt)|2021/12|proposed standard|regext|-|-|
 |[9199](https://www.rfc-editor.org/info/rfc9199)|[Considerations for Large Authoritative DNS Server Operators](rfc_documents/rfc9199.txt)|2022/3|informational|independent|-|-|
 |[9210](https://www.rfc-editor.org/info/rfc9210)|[DNS Transport over TCP - Operational Requirements](rfc_documents/rfc9210.txt)|2022/3|best current practice|dnsop|-|-|
@@ -502,12 +512,12 @@ Last updated: October 3, 2025
 |[9824](https://www.rfc-editor.org/info/rfc9824)|[Compact Denial of Existence in DNSSEC](rfc_documents/rfc9824.txt)|2025/9|proposed standard|dnsop|-|-|
 |[9859](https://www.rfc-editor.org/info/rfc9859)|[Generalized DNS Notifications](rfc_documents/rfc9859.txt)|2025/9|proposed standard|dnsop|-|-|
 |[9874](https://www.rfc-editor.org/info/rfc9874)|[Best Practices for Deletion of Domain and Host Objects in the Extensible Provisioning Protocol (EPP)](rfc_documents/rfc9874.txt)|2025/9|best current practice|regext|-|-|
+|[9877](https://www.rfc-editor.org/info/rfc9877)|[Registration Data Access Protocol (RDAP) Extension for Geofeed Data](rfc_documents/rfc9877.txt)|2025/10|proposed standard|regext|-|-|
+|[9886](https://www.rfc-editor.org/info/rfc9886)|[DRIP Entity Tags (DETs) in the Domain Name System](rfc_documents/rfc9886.txt)|2025/12|proposed standard|drip|-|-|
+|[9904](https://www.rfc-editor.org/info/rfc9904)|[DNSSEC Cryptographic Algorithm Recommendation Update Process](rfc_documents/rfc9904.txt)|2025/11|proposed standard|dnsop|-|-|
+|[9905](https://www.rfc-editor.org/info/rfc9905)|[Deprecating the Use of SHA-1 in DNSSEC Signature Algorithms](rfc_documents/rfc9905.txt)|2025/11|proposed standard|dnsop|-|-|
+|[9906](https://www.rfc-editor.org/info/rfc9906)|[Deprecate Usage of ECC-GOST within DNSSEC](rfc_documents/rfc9906.txt)|2025/11|proposed standard|dnsop|-|-|
 
-## Summary
-**Total # of RFCs**: 498
-
-**Total # of valid RFCs**: 290     
-(status: Internet Standard / Proposed Standard / Draft Standard / Best Current Practice)
 
 ## References
 - [RFC index](https://www.rfc-editor.org/rfc-index.html)
@@ -516,7 +526,7 @@ Last updated: October 3, 2025
 - [DNS-WIKI](https://www.dnswiki.cn/index.php?title=DNS-RFC)
 
 ## Todo
-RFC分类
+- RFC classification
 
 ## Contact
-1957078363@qq.com
+[zhangsh22@mails.tsinghua.edu.cn](mailto:zhangsh22@mails.tsinghua.edu.cn)
