@@ -370,7 +370,7 @@ Last updated: 2026-03-10
 |[7958](https://www.rfc-editor.org/info/rfc7958)|[DNSSEC Trust Anchor Publication for the Root Zone](rfc_documents/rfc7958.txt)|2016/8|informational|independent|[9718](https://www.rfc-editor.org/info/rfc9718)|-|
 |[7960](https://www.rfc-editor.org/info/rfc7960)|[Interoperability Issues between Domain-based Message Authentication, Reporting, and Conformance (DMARC) and Indirect Email Flows](rfc_documents/rfc7960.txt)|2016/9|informational|dmarc|-|-|
 |[8005](https://www.rfc-editor.org/info/rfc8005)|[Host Identity Protocol (HIP) Domain Name System (DNS) Extension](rfc_documents/rfc8005.txt)|2016/10|proposed standard|hip|-|-|
-|[8020](https://www.rfc-editor.org/info/rfc8020)|[NXDOMAIN: There Really is Nothing Underneath](rfc_documents/rfc8020.txt)|2016/11|proposed standard|dnsop|-|[1034](https://www.rfc-editor.org/info/rfc1034),[2308](https://www.rfc-editor.org/info/rfc2308)|
+|[8020](https://www.rfc-editor.org/info/rfc8020)|[NXDOMAIN: There Really is Nothing Underneath](rfc_documents/rfc8020.txt)|2016/11|proposed standard|dnsop|-|-|
 |[8023](https://www.rfc-editor.org/info/rfc8023)|[Report from the Workshop and Prize on Root Causes and Mitigation of Name Collisions](rfc_documents/rfc8023.txt)|2016/11|informational|independent|-|-|
 |[8027](https://www.rfc-editor.org/info/rfc8027)|[DNSSEC Roadblock Avoidance](rfc_documents/rfc8027.txt)|2016/11|best current practice|dnsop|-|-|
 |[8056](https://www.rfc-editor.org/info/rfc8056)|[Extensible Provisioning Protocol (EPP) and Registration Data Access Protocol (RDAP) Status Mapping](rfc_documents/rfc8056.txt)|2017/1|proposed standard|regext|-|-|
