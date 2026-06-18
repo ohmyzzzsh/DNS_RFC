@@ -3,7 +3,7 @@
 Last updated: 2026-06-18
 
 ## Summary
-<img src="figures/dns_rfc.png" width="500" />
+<img src="figures/dns_rfc.png" width="600" />
 
 \# all RFCs: 508
 
