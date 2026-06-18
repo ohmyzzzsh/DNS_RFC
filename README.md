@@ -1,16 +1,17 @@
-# DNS-related RFC documents
+# DNS-related RFC
 
-Last updated: 2026-03-10
+Last updated: 2026-06-18
 
 ## Summary
-| Date       | Total # of RFCs | Total # of valid RFCs<sup>*</sup> |
-|------------|-----------------|-----------------------------------|
-| 2026-03-10 | 503             | 294                               |
-| 2025-10-03 | 498             | 290                               |
+<img src="figures/dns_rfc.png" width="600" />
 
-<sup>*</sup>Status: Internet Standard / Proposed Standard / Draft Standard / Best Current Practice
+\# all RFCs: 508
 
-## RFC details
+\# valid<sup>*</sup> RFCs: 247
+
+<sup>*Valid RFC: status ∊ {internet standard, proposed standard, draft standard, best current practice} && obsoleted by == ∅</sup>
+
+## RFC metadata
 
 | RFC No. | Title | Date | Status | WG/Stream | Obsoleted by | Updated by |
 |---------|-------|------|--------|-----------|--------------|------------|
@@ -328,15 +329,15 @@ Last updated: 2026-03-10
 |[7304](https://www.rfc-editor.org/info/rfc7304)|[A Method for Mitigating Namespace Collisions](rfc_documents/rfc7304.txt)|2014/7|informational|independent|-|-|
 |[7314](https://www.rfc-editor.org/info/rfc7314)|[Extension Mechanisms for DNS (EDNS) EXPIRE Option](rfc_documents/rfc7314.txt)|2014/7|experimental|independent|-|-|
 |[7336](https://www.rfc-editor.org/info/rfc7336)|[Framework for Content Distribution Network Interconnection (CDNI)](rfc_documents/rfc7336.txt)|2014/8|informational|cdni|-|-|
-|[7344](https://www.rfc-editor.org/info/rfc7344)|[Automating DNSSEC Delegation Trust Maintenance](rfc_documents/rfc7344.txt)|2014/9|proposed standard|dnsop|-|[8078](https://www.rfc-editor.org/info/rfc8078),[9615](https://www.rfc-editor.org/info/rfc9615)|
+|[7344](https://www.rfc-editor.org/info/rfc7344)|[Automating DNSSEC Delegation Trust Maintenance](rfc_documents/rfc7344.txt)|2014/9|proposed standard|dnsop|-|[8078](https://www.rfc-editor.org/info/rfc8078),[9615](https://www.rfc-editor.org/info/rfc9615),[9975](https://www.rfc-editor.org/info/rfc9975)|
 |[7393](https://www.rfc-editor.org/info/rfc7393)|[Using the Port Control Protocol (PCP) to Update Dynamic DNS](rfc_documents/rfc7393.txt)|2014/11|informational|independent|-|-|
-|[7477](https://www.rfc-editor.org/info/rfc7477)|[Child-to-Parent Synchronization in DNS](rfc_documents/rfc7477.txt)|2015/3|proposed standard|dnsop|-|-|
+|[7477](https://www.rfc-editor.org/info/rfc7477)|[Child-to-Parent Synchronization in DNS](rfc_documents/rfc7477.txt)|2015/3|proposed standard|dnsop|-|[9975](https://www.rfc-editor.org/info/rfc9975)|
 |[7479](https://www.rfc-editor.org/info/rfc7479)|[Using Ed25519 in SSHFP Resource Records](rfc_documents/rfc7479.txt)|2015/3|informational|none|-|-|
 |[7482](https://www.rfc-editor.org/info/rfc7482)|[Registration Data Access Protocol (RDAP) Query Format](rfc_documents/rfc7482.txt)|2015/3|proposed standard|weirds|[9082](https://www.rfc-editor.org/info/rfc9082)|-|
 |[7483](https://www.rfc-editor.org/info/rfc7483)|[JSON Responses for the Registration Data Access Protocol (RDAP)](rfc_documents/rfc7483.txt)|2015/3|proposed standard|weirds|[9083](https://www.rfc-editor.org/info/rfc9083)|-|
 |[7484](https://www.rfc-editor.org/info/rfc7484)|[Finding the Authoritative Registration Data (RDAP) Service](rfc_documents/rfc7484.txt)|2015/3|proposed standard|weirds|[9224](https://www.rfc-editor.org/info/rfc9224)|[8521](https://www.rfc-editor.org/info/rfc8521)|
 |[7485](https://www.rfc-editor.org/info/rfc7485)|[Inventory and Analysis of WHOIS Registration Objects](rfc_documents/rfc7485.txt)|2015/3|informational|weirds|-|-|
-|[7489](https://www.rfc-editor.org/info/rfc7489)|[Domain-based Message Authentication, Reporting, and Conformance (DMARC)](rfc_documents/rfc7489.txt)|2015/3|informational|independent|-|[8553](https://www.rfc-editor.org/info/rfc8553),[8616](https://www.rfc-editor.org/info/rfc8616)|
+|[7489](https://www.rfc-editor.org/info/rfc7489)|[Domain-based Message Authentication, Reporting, and Conformance (DMARC)](rfc_documents/rfc7489.txt)|2015/3|informational|independent|[9990](https://www.rfc-editor.org/info/rfc9990),[9991](https://www.rfc-editor.org/info/rfc9991)|[8553](https://www.rfc-editor.org/info/rfc8553),[8616](https://www.rfc-editor.org/info/rfc8616),[9989](https://www.rfc-editor.org/info/rfc9989)|
 |[7505](https://www.rfc-editor.org/info/rfc7505)|[A "Null MX" No Service Resource Record for Domains That Accept No Mail](rfc_documents/rfc7505.txt)|2015/6|proposed standard|appsawg|-|-|
 |[7534](https://www.rfc-editor.org/info/rfc7534)|[AS112 Nameserver Operations](rfc_documents/rfc7534.txt)|2015/5|informational|dnsop|-|-|
 |[7535](https://www.rfc-editor.org/info/rfc7535)|[AS112 Redirection Using DNAME](rfc_documents/rfc7535.txt)|2015/5|informational|dnsop|-|-|
@@ -450,7 +451,7 @@ Last updated: 2026-03-10
 |[9077](https://www.rfc-editor.org/info/rfc9077)|[NSEC and NSEC3: TTLs and Aggressive Use](rfc_documents/rfc9077.txt)|2021/7|proposed standard|dnsop|-|-|
 |[9082](https://www.rfc-editor.org/info/rfc9082)|[Registration Data Access Protocol (RDAP) Query Format](rfc_documents/rfc9082.txt)|2021/6|internet standard|regext|-|-|
 |[9083](https://www.rfc-editor.org/info/rfc9083)|[JSON Responses for the Registration Data Access Protocol (RDAP)](rfc_documents/rfc9083.txt)|2021/6|internet standard|regext|-|-|
-|[9091](https://www.rfc-editor.org/info/rfc9091)|[Experimental Domain-Based Message Authentication, Reporting, and Conformance (DMARC) Extension for Public Suffix Domains](rfc_documents/rfc9091.txt)|2021/7|experimental|dmarc|-|-|
+|[9091](https://www.rfc-editor.org/info/rfc9091)|[Experimental Domain-Based Message Authentication, Reporting, and Conformance (DMARC) Extension for Public Suffix Domains](rfc_documents/rfc9091.txt)|2021/7|experimental|dmarc|-|[9989](https://www.rfc-editor.org/info/rfc9989)|
 |[9095](https://www.rfc-editor.org/info/rfc9095)|[Extensible Provisioning Protocol (EPP) Domain Name Mapping Extension for Strict Bundling Registration](rfc_documents/rfc9095.txt)|2021/7|informational|independent|-|-|
 |[9102](https://www.rfc-editor.org/info/rfc9102)|[TLS DNSSEC Chain Extension](rfc_documents/rfc9102.txt)|2021/8|experimental|independent|-|-|
 |[9103](https://www.rfc-editor.org/info/rfc9103)|[DNS Zone Transfer over TLS](rfc_documents/rfc9103.txt)|2021/8|proposed standard|dprive|-|-|
@@ -517,16 +518,17 @@ Last updated: 2026-03-10
 |[9904](https://www.rfc-editor.org/info/rfc9904)|[DNSSEC Cryptographic Algorithm Recommendation Update Process](rfc_documents/rfc9904.txt)|2025/11|proposed standard|dnsop|-|-|
 |[9905](https://www.rfc-editor.org/info/rfc9905)|[Deprecating the Use of SHA-1 in DNSSEC Signature Algorithms](rfc_documents/rfc9905.txt)|2025/11|proposed standard|dnsop|-|-|
 |[9906](https://www.rfc-editor.org/info/rfc9906)|[Deprecate Usage of ECC-GOST within DNSSEC](rfc_documents/rfc9906.txt)|2025/11|proposed standard|dnsop|-|-|
-
+|[9953](https://www.rfc-editor.org/info/rfc9953)|[DNS over CoAP (DoC)](rfc_documents/rfc9953.txt)|2026/3|proposed standard|core|-|-|
+|[9975](https://www.rfc-editor.org/info/rfc9975)|[Clarifications on CDS/CDNSKEY and CSYNC Consistency](rfc_documents/rfc9975.txt)|2026/5|proposed standard|dnsop|-|-|
+|[9989](https://www.rfc-editor.org/info/rfc9989)|[Domain-Based Message Authentication, Reporting, and Conformance (DMARC)](rfc_documents/rfc9989.txt)|2026/5|proposed standard|dmarc|-|-|
+|[9990](https://www.rfc-editor.org/info/rfc9990)|[Domain-Based Message Authentication, Reporting, and Conformance (DMARC) Aggregate Reporting](rfc_documents/rfc9990.txt)|2026/5|proposed standard|dmarc|-|-|
+|[9991](https://www.rfc-editor.org/info/rfc9991)|[Domain-Based Message Authentication, Reporting, and Conformance (DMARC) Failure Reporting](rfc_documents/rfc9991.txt)|2026/5|proposed standard|dmarc|-|-|
 
 ## References
 - [RFC index](https://www.rfc-editor.org/rfc-index.html)
 - [port-53.info](https://port-53.info/rfcs/)
 - [StatDNS](https://www.statdns.com/rfc/)
 - [DNS-WIKI](https://www.dnswiki.cn/index.php?title=DNS-RFC)
-
-## Todo
-- RFC classification
 
 ## Contact
 [zhangsh22@mails.tsinghua.edu.cn](mailto:zhangsh22@mails.tsinghua.edu.cn)
