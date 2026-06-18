@@ -3,13 +3,13 @@
 Last updated: 2026-06-18
 
 ## Summary
-<img src="figures/dns_rfc.png" width="600" />
+<img src="figures/dns_rfc.png" width="500" />
 
 \# all RFCs: 508
 
 \# valid<sup>*</sup> RFCs: 247
 
-<sup>*Valid RFC: status ∊ {internet standard, proposed standard, draft standard, best current practice} && obsoleted by == ∅</sup>
+<sup>*valid: status ∊ {internet standard, proposed standard, draft standard, best current practice} && obsoleted by == ∅</sup>
 
 ## RFC metadata
 
